@@ -1,0 +1,27 @@
+[
+  {
+    "datasetid": "us-zip-code-latitude-and-longitude",
+    "recordid": "6a0a9c66f8e0292a54c9f023c93732f1b41d8943",
+    "fields": {
+      "city": "Cove",
+      "zip": "71937",
+      "dst": 1,
+      "geopoint": [
+        34.398483,
+        -94.39398
+      ],
+      "longitude": -94.39398,
+      "state": "AR",
+      "latitude": 34.398483,
+      "timezone": -6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -94.39398,
+        34.398483
+      ]
+    },
+    "record_timestamp": "2018-02-09T11:33:38.603-05:00"
+  }
+]
