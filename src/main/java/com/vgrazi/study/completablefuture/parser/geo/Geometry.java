@@ -1,4 +1,4 @@
-package com.vgrazi.study.completablefuture.parser;
+package com.vgrazi.study.completablefuture.parser.geo;
 
 import lombok.Getter;
 import lombok.Setter;

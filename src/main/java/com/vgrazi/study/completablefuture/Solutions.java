@@ -1,9 +1,9 @@
 package com.vgrazi.study.completablefuture;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vgrazi.study.completablefuture.parser.Dataset;
-import com.vgrazi.study.completablefuture.parser.Fields;
-import com.vgrazi.study.completablefuture.parser.GeoPoint;
+import com.vgrazi.study.completablefuture.parser.geo.Dataset;
+import com.vgrazi.study.completablefuture.parser.geo.Fields;
+import com.vgrazi.study.completablefuture.parser.geo.GeoPoint;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,13 +1,23 @@
 package com.vgrazi.study.completablefuture;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.vgrazi.study.completablefuture.parser.currency.Currencies;
+import com.vgrazi.study.completablefuture.parser.geo.Dataset;
+import com.vgrazi.study.completablefuture.parser.geo.Fields;
+import com.vgrazi.study.completablefuture.parser.geo.GeoPoint;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
+import java.util.stream.Collectors;
 
 public class AllCasesFromExcel {
     private final Logger logger = LoggerFactory.getLogger(AllCasesFromExcel.class);
@@ -37,6 +47,7 @@ public class AllCasesFromExcel {
         then.join();
         logger.debug("Finishing");
     }
+
     @Test
     public void thenAcceptBoth() throws InterruptedException, ExecutionException, TimeoutException {
         latch = CompletableFuture.completedFuture(null);
@@ -89,15 +100,15 @@ public class AllCasesFromExcel {
     }
 
     @Test
-    public void allOf() throws InterruptedException, ExecutionException, TimeoutException {
+    public void allOf() {
         keepAlive();
         logger.debug("Starting");
         CompletableFuture<String> cf1 = new CompletableFuture();
         CompletableFuture<String> cf2 = new CompletableFuture();
         CompletableFuture<String> cf3 = new CompletableFuture();
         CompletableFuture<Void> allOf = CompletableFuture.allOf(cf1, cf2, cf3);
-        allOf.thenRunAsync(()->logger.debug("thenRunAsync"));
-        allOf.thenRun(()-> {
+        allOf.thenRunAsync(() -> logger.debug("thenRunAsync"));
+        allOf.thenRun(() -> {
             try {
                 logger.debug("thenRun starting");
                 Thread.sleep(1_000);
@@ -117,6 +128,60 @@ public class AllCasesFromExcel {
         logger.debug("Joining");
         allOf.join();
         logger.debug("Finishing");
+    }
+
+    @Test
+    public void geoCoordinatesTest() throws IOException {
+        logger.debug("Starting geocoordinate test");
+
+        CompletableFuture.supplyAsync(() -> {
+            return parseGeoDatasets();
+        }).thenApply(this::convertDataSetToZipcodeMap).thenAccept(map -> {
+            Fields fields = map.get("11223").getFields();
+            logger.info(String.format("11223 is in %s. Geocoords(Lat, long) = %s,%s", fields.getCity(), fields.getLatitude(), fields.getLongitude()));
+        })
+            .join();
+        logger.debug("Done geo-coordinate test");
+    }
+
+    private Dataset[] parseGeoDatasets() {
+        Dataset[] datasets = new Dataset[0];
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            File file = new File("target/classes/us-zip-code-latitude-and-longitude.json");
+            datasets = mapper.readValue(file, Dataset[].class);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return datasets;
+    }
+
+    @Test
+    public void parseCurrencies() {
+        Currencies currencies = parseCurrencyConversions();
+        logger.debug(String.valueOf(currencies));
+    }
+
+    private Currencies parseCurrencyConversions() {
+        Currencies currencies = null;
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            File file = new File("target/classes/currency-conversions.json");
+            currencies = mapper.readValue(file, Currencies.class);
+        } catch (IOException e) {
+            logger.debug("Exception parsing currency conversions", e);
+        }
+        return currencies;
+    }
+
+    private Map<GeoPoint, Dataset> convertDataSetToGeoCoordsMap(Dataset[] datasets) {
+        return Arrays.stream(datasets).collect(Collectors.toMap(dataset ->
+                new GeoPoint(dataset.getFields().getLatitude(), dataset.getFields().getLongitude())
+            , dataset -> dataset));
+    }
+
+    private Map<String, Dataset> convertDataSetToZipcodeMap(Dataset[] datasets) {
+        return Arrays.stream(datasets).collect(Collectors.toMap(dataset -> dataset.getFields().getZip(), dataset -> dataset));
     }
 
     public void keepAlive() {
