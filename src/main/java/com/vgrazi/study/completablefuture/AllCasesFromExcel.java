@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vgrazi.study.completablefuture.parser.currency.Currencies;
 import com.vgrazi.study.completablefuture.parser.geo.Dataset;
 import com.vgrazi.study.completablefuture.parser.geo.GeoPoint;
+import lombok.SneakyThrows;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,11 +47,11 @@ public class AllCasesFromExcel {
         logger.debug("Starting");
         CompletableFuture<String> cf1 = new CompletableFuture();
         CompletableFuture<Void> then = cf1.thenAccept(x -> logger.debug(x));
-        CompletableFuture.supplyAsync(()->{
+        CompletableFuture.supplyAsync(() -> {
             logger.debug("completing");
             cf1.complete("completed result");
-                return null;
-            }, CompletableFuture.delayedExecutor(1, TimeUnit.SECONDS));
+            return null;
+        }, CompletableFuture.delayedExecutor(1, TimeUnit.SECONDS));
         logger.debug("Joining");
         then.join();
         logger.debug("Finishing");
@@ -120,7 +121,7 @@ public class AllCasesFromExcel {
 
     @Test
     public void thenCompose() {
-        CompletableFuture cf1 = CompletableFuture.supplyAsync(()->{
+        CompletableFuture cf1 = CompletableFuture.supplyAsync(() -> {
             try {
                 Thread.sleep(1_000);
                 logger.debug("Waking");
@@ -131,7 +132,7 @@ public class AllCasesFromExcel {
         });
         CompletableFuture<String> cf = cf1.thenCompose(x ->
             CompletableFuture.supplyAsync(
-                ()-> x + "s"));
+                () -> x + "s"));
         String join = cf.join();
         logger.debug(join);
     }
@@ -199,6 +200,7 @@ public class AllCasesFromExcel {
 
     /**
      * Input file contains 43,191 entries of usa coordinates
+     *
      * @return
      */
     private Dataset[] parseGeoDatasets() {
@@ -216,12 +218,12 @@ public class AllCasesFromExcel {
     private String generateLicenseData() {
         int count = random.nextInt(2) + 2;// first 2 to 3 characters are letters
         StringBuilder license = new StringBuilder();
-        for(int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i++) {
             license.append(generateRandomCharacter());
         }
         license.append("-");
         count = random.nextInt(2) + 3;// final 3 to 4 characters are digits
-        for(int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i++) {
             license.append(random.nextInt(10));
         }
         return license.toString();
@@ -229,20 +231,21 @@ public class AllCasesFromExcel {
 
     private final static Random random = new Random();
 
-    private char generateRandomCharacter(){
+    private char generateRandomCharacter() {
         char ch = (char) (random.nextInt(26) + 'A');
         return ch;
     }
 
     /**
      * Creates an account file consisting of over 1000 records
+     *
      * @param datasets
      */
     private void writeAccountsFile(Dataset[] datasets) {
         Path path = Paths.get("accounts.csv");
         try {
             Files.write(path, "".getBytes());
-            for(int i = 0; i < datasets.length; i+= 40) {
+            for (int i = 0; i < datasets.length; i += 40) {
                 Dataset dataset = datasets[i];
                 String str = dataset.toString() + "\n";
 
@@ -265,11 +268,11 @@ public class AllCasesFromExcel {
         Path path = Paths.get("license.csv");
         try {
             Files.write(path, "".getBytes());
-            for(int i = 0; i < datasets.length/40; i++){
+            for (int i = 0; i < datasets.length / 40; i++) {
                 int index = random.nextInt(datasets.length);
                 String state = datasets[index].getFields().getState();
                 String license = state + ", " + generateLicenseData() + "\n";
-                Files.write(path, license.getBytes(),StandardOpenOption.APPEND);
+                Files.write(path, license.getBytes(), StandardOpenOption.APPEND);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -292,6 +295,48 @@ public class AllCasesFromExcel {
             logger.debug("Exception parsing currency conversions", e);
         }
         return currencies;
+    }
+
+    @SneakyThrows
+    @Test
+    public void obtrude() {
+        CompletableFuture<String> cf = CompletableFuture.supplyAsync(() ->
+        {
+            try {
+                Thread.sleep(5_000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return "completed";
+        });
+        for (int i = 0; i < 3; i++) {
+            String join = cf.join();
+            logger.debug(join);
+            Thread.sleep(1_000);
+            switch (i) {
+                case 0:
+                    cf.complete("some completed value");
+                    break;
+                case 1:
+                    cf.obtrudeValue("some obtruded value");
+                    break;
+            }
+        }
+    }
+
+    @Test
+    public void obtrudeException() {
+        CompletableFuture<String> cf = CompletableFuture.supplyAsync(() -> {
+            while (true) ;
+        });
+        cf.obtrudeException(new RuntimeException("You got the exception"));
+        String join = null;
+        try {
+            join = cf.join();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        logger.debug(join);
     }
 
     private Map<GeoPoint, Dataset> convertDataSetToGeoCoordsMap(Dataset[] datasets) {
