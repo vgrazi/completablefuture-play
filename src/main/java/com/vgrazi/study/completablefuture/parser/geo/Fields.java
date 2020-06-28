@@ -2,7 +2,9 @@ package com.vgrazi.study.completablefuture.parser.geo;
 
 import lombok.Getter;
 import lombok.Setter;
-@Getter @Setter
+import lombok.ToString;
+
+@Getter @Setter @ToString
 public class Fields {
 //          "city": "Delray Beach",
 //          "zip": "33446",
@@ -11,6 +13,7 @@ public class Fields {
 //              26.452473,
 //              -80.16509
 //          ]
+    @ToString.Exclude
     private float[] geopoint;
     private String city;
     private String state;

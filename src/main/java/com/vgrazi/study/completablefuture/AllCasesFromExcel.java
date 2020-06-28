@@ -3,7 +3,6 @@ package com.vgrazi.study.completablefuture;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vgrazi.study.completablefuture.parser.currency.Currencies;
 import com.vgrazi.study.completablefuture.parser.geo.Dataset;
-import com.vgrazi.study.completablefuture.parser.geo.Fields;
 import com.vgrazi.study.completablefuture.parser.geo.GeoPoint;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -11,8 +10,13 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 import java.util.Map;
+import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
@@ -20,7 +24,7 @@ import java.util.concurrent.TimeoutException;
 import java.util.stream.Collectors;
 
 public class AllCasesFromExcel {
-    private final Logger logger = LoggerFactory.getLogger(AllCasesFromExcel.class);
+    private final Logger logger = LoggerFactory.getLogger("");
     private CompletableFuture<Void> latch = new CompletableFuture();
 
     @Test
@@ -29,11 +33,26 @@ public class AllCasesFromExcel {
         CompletableFuture<String> cf1 = new CompletableFuture();
         CompletableFuture<String> cf2 = new CompletableFuture();
         // accept a consumer
-        CompletableFuture<Void> either = cf1.acceptEitherAsync(cf2, logger::debug,
+        CompletableFuture<Void> cfEither = cf1.acceptEitherAsync(cf2, logger::debug,
             CompletableFuture.delayedExecutor(1, TimeUnit.SECONDS));
 //        cf1.complete("cf1 is done");
         cf2.complete("cf2 is done");
-        either.get(2, TimeUnit.SECONDS);
+        cfEither.get(2, TimeUnit.SECONDS);
+        logger.debug("Finishing");
+    }
+
+    @Test
+    public void thenAccept() {
+        logger.debug("Starting");
+        CompletableFuture<String> cf1 = new CompletableFuture();
+        CompletableFuture<Void> then = cf1.thenAccept(x -> logger.debug(x));
+        CompletableFuture.supplyAsync(()->{
+            logger.debug("completing");
+            cf1.complete("completed result");
+                return null;
+            }, CompletableFuture.delayedExecutor(1, TimeUnit.SECONDS));
+        logger.debug("Joining");
+        then.join();
         logger.debug("Finishing");
     }
 
@@ -100,6 +119,24 @@ public class AllCasesFromExcel {
     }
 
     @Test
+    public void thenCompose() {
+        CompletableFuture cf1 = CompletableFuture.supplyAsync(()->{
+            try {
+                Thread.sleep(1_000);
+                logger.debug("Waking");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return "Done cf1";
+        });
+        CompletableFuture<String> cf = cf1.thenCompose(x ->
+            CompletableFuture.supplyAsync(
+                ()-> x + "s"));
+        String join = cf.join();
+        logger.debug(join);
+    }
+
+    @Test
     public void allOf() {
         keepAlive();
         logger.debug("Starting");
@@ -131,19 +168,39 @@ public class AllCasesFromExcel {
     }
 
     @Test
+    public void parseCoordinatesAndCities() {
+        // Summary - we are tasked with preparing incoming EZ Pass data for indexing in Elasticsearch
+        // The main file consists of Date, License plate #, geo coords of toll booth, pmnt currency
+        // there are some fields that need to be enriched:
+        // 1. Geo coords
+        // 2. Currency rate
+        // 3. License plates
+        // Goal: Launch supplyAsync processes:
+        // 1. Read main file
+        // 2. Read Geo file
+        // 3. Read Currency conversions file
+        // strategy
+
+    }
+
+    @Test
     public void geoCoordinatesTest() throws IOException {
         logger.debug("Starting geocoordinate test");
 
-        CompletableFuture.supplyAsync(() -> {
-            return parseGeoDatasets();
-        }).thenApply(this::convertDataSetToZipcodeMap).thenAccept(map -> {
-            Fields fields = map.get("11223").getFields();
-            logger.info(String.format("11223 is in %s. Geocoords(Lat, long) = %s,%s", fields.getCity(), fields.getLatitude(), fields.getLongitude()));
-        })
+        Map<String, Dataset> join = CompletableFuture.supplyAsync(this::parseGeoDatasets)
+            .thenApply(this::convertDataSetToZipcodeMap)
+//            .thenAccept(map -> {
+//                Fields fields = map.get("11223").getFields();
+//                logger.info(String.format("11223 is in %s. Geocoords(Lat, long) = %s,%s", fields.getCity(), fields.getLatitude(), fields.getLongitude()));
+//            })
             .join();
         logger.debug("Done geo-coordinate test");
     }
 
+    /**
+     * Input file contains 43,191 entries of usa coordinates
+     * @return
+     */
     private Dataset[] parseGeoDatasets() {
         Dataset[] datasets = new Dataset[0];
         try {
@@ -154,6 +211,69 @@ public class AllCasesFromExcel {
             e.printStackTrace();
         }
         return datasets;
+    }
+
+    private String generateLicenseData() {
+        int count = random.nextInt(2) + 2;// first 2 to 3 characters are letters
+        StringBuilder license = new StringBuilder();
+        for(int i = 0; i < count; i++) {
+            license.append(generateRandomCharacter());
+        }
+        license.append("-");
+        count = random.nextInt(2) + 3;// final 3 to 4 characters are digits
+        for(int i = 0; i < count; i++) {
+            license.append(random.nextInt(10));
+        }
+        return license.toString();
+    }
+
+    private final static Random random = new Random();
+
+    private char generateRandomCharacter(){
+        char ch = (char) (random.nextInt(26) + 'A');
+        return ch;
+    }
+
+    /**
+     * Creates an account file consisting of over 1000 records
+     * @param datasets
+     */
+    private void writeAccountsFile(Dataset[] datasets) {
+        Path path = Paths.get("accounts.csv");
+        try {
+            Files.write(path, "".getBytes());
+            for(int i = 0; i < datasets.length; i+= 40) {
+                Dataset dataset = datasets[i];
+                String str = dataset.toString() + "\n";
+
+                byte[] strToBytes = str.getBytes();
+
+                Files.write(path, strToBytes, StandardOpenOption.APPEND);
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Creates a license file consisting of over 1000 records
+     */
+    @Test
+    public void writeLicenseFile() {
+        Dataset[] datasets = parseGeoDatasets();
+        Path path = Paths.get("license.csv");
+        try {
+            Files.write(path, "".getBytes());
+            for(int i = 0; i < datasets.length/40; i++){
+                int index = random.nextInt(datasets.length);
+                String state = datasets[index].getFields().getState();
+                String license = state + ", " + generateLicenseData() + "\n";
+                Files.write(path, license.getBytes(),StandardOpenOption.APPEND);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Test

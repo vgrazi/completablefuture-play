@@ -2,6 +2,7 @@ package com.vgrazi.study.completablefuture.parser.geo;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 
 /*
@@ -13,8 +14,9 @@ import lombok.Setter;
       ]
     }
  */
-@Setter @Getter
+@Setter @Getter @ToString
 public class Geometry {
     private String type;
+    @ToString.Exclude
     private float[] coordinates;
 }

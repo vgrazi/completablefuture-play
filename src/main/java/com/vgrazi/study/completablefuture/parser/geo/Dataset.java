@@ -2,6 +2,7 @@ package com.vgrazi.study.completablefuture.parser.geo;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 
 /*
@@ -29,12 +30,16 @@ import lombok.Setter;
       ]
     }
  */
-@Getter @Setter
+@Getter @Setter @ToString
 public class Dataset {
+    @ToString.Exclude
     private String datasetid;
+    @ToString.Exclude
     private String recordid;
+    @ToString.Exclude
     private String record_timestamp;
     private Fields fields;
+    @ToString.Exclude
     private Geometry geometry;
 }
 
