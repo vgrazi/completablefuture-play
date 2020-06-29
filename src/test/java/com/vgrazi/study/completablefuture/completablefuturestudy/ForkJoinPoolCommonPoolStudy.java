@@ -1,4 +1,4 @@
-package completablefuturestudy;
+package com.vgrazi.study.completablefuture.completablefuturestudy;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

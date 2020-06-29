@@ -1,4 +1,4 @@
-package completablefuturestudy;
+package com.vgrazi.study.completablefuture.completablefuturestudy;
 
 import java.util.Arrays;
 import java.util.concurrent.CompletableFuture;

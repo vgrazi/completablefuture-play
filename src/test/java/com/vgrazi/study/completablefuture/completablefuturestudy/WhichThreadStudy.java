@@ -1,4 +1,4 @@
-package completablefuturestudy;
+package com.vgrazi.study.completablefuture.completablefuturestudy;
 
 import org.junit.After;
 import org.junit.Test;

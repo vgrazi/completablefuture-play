@@ -28,6 +28,54 @@ public class AllCasesFromExcel {
     private final Logger logger = LoggerFactory.getLogger("");
     private CompletableFuture<Void> latch = new CompletableFuture();
 
+
+// 1. Create a latch
+    @Test
+    public void latch() {
+        CompletableFuture latch = new CompletableFuture();
+        for (int i = 0; i < 3; i++) {
+            new Thread(()->{
+                logger.debug("waiting for latch");
+                latch.join();
+                logger.debug("Done");
+            }).start();
+        }
+        new Thread(()->{
+            try {
+                Thread.sleep(3_000);
+                logger.debug("Opening latch");
+                latch.complete("Open latch");
+                logger.debug("Latch open");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
+
+        latch.join();
+
+    }
+
+    // 2. replace the wait's with CompletableFuture
+    @Test
+    public void latchWithDelayedExecutor () {
+        CompletableFuture latch = new CompletableFuture();
+        for (int i = 0; i < 3; i++) {
+            new Thread(()->{
+                logger.debug("waiting for latch");
+                latch.join();
+                logger.debug("Done");
+            }).start();
+        }
+        CompletableFuture.runAsync(()->{
+            logger.debug("Opening latch");
+            latch.complete("Open latch");
+            logger.debug("Latch open");
+        }, CompletableFuture.delayedExecutor(3, TimeUnit.SECONDS));
+
+        latch.join();
+
+    }
+
     @Test
     public void acceptEither() throws InterruptedException, ExecutionException, TimeoutException {
         logger.debug("Starting");
