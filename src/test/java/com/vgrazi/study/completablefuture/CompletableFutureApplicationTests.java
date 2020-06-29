@@ -10,7 +10,7 @@ import java.util.concurrent.CompletableFuture;
 @SpringBootTest
 class CompletableFutureApplicationTests {
 
-    Logger logger = LoggerFactory.getLogger(EnvironmentValidator.class);
+    Logger logger = LoggerFactory.getLogger(CompletableFutureApplicationTests.class);
     @Test
     public void validateEnvironment() {
         CompletableFuture<Void> completableFuture = CompletableFuture.runAsync(() -> logger.debug("You're good to go!"));
