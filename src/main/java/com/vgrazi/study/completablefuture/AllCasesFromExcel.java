@@ -18,10 +18,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 import java.util.Map;
 import java.util.Random;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
+import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
 public class AllCasesFromExcel {
@@ -29,58 +26,209 @@ public class AllCasesFromExcel {
     private CompletableFuture<Void> latch = new CompletableFuture();
 
 
-// 1. Create a latch
+    // 1. Create a latch
     @Test
     public void latch() {
-        CompletableFuture latch = new CompletableFuture();
+        CompletableFuture<String> latch = new CompletableFuture();
         for (int i = 0; i < 3; i++) {
-            new Thread(()->{
+            new Thread(() -> {
                 logger.debug("waiting for latch");
-                latch.join();
-                logger.debug("Done");
+                String join = latch.join();
+                logger.debug("Done:" + join);
             }).start();
         }
-        new Thread(()->{
+        new Thread(() -> {
             try {
                 Thread.sleep(3_000);
                 logger.debug("Opening latch");
-                latch.complete("Open latch");
+                latch.complete("Opened latch");
                 logger.debug("Latch open");
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }).start();
 
-        latch.join();
+        String join = latch.join();
+        logger.debug("Latch open:" + join);
 
     }
 
     // 2. replace the wait's with CompletableFuture
     @Test
-    public void latchWithDelayedExecutor () {
-        CompletableFuture latch = new CompletableFuture();
+    public void latchWithDelayedExecutor() {
+        CompletableFuture<String> latch = new CompletableFuture();
         for (int i = 0; i < 3; i++) {
-            new Thread(()->{
+            CompletableFuture.runAsync(() -> {
                 logger.debug("waiting for latch");
-                latch.join();
-                logger.debug("Done");
-            }).start();
+                String join = latch.join();
+                logger.debug("Done:" + join);
+            });
         }
-        CompletableFuture.runAsync(()->{
+        CompletableFuture.runAsync(() -> {
             logger.debug("Opening latch");
-            latch.complete("Open latch");
+            latch.complete("Opened latch");
             logger.debug("Latch open");
         }, CompletableFuture.delayedExecutor(3, TimeUnit.SECONDS));
 
-        latch.join();
-
+        String join = latch.join();
+        logger.debug("Latch open:" + join);
     }
 
+    // 3. runAsync
+    @Test
+    public void runAsync() {
+        CompletableFuture<Void> cf = CompletableFuture.runAsync(() -> {
+            logger.debug("Sleeping...");
+            try {
+                Thread.sleep(1_000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            logger.debug("Exiting");
+        });
+        Void join = cf.join();
+        logger.debug(String.valueOf(join));
+    }
+
+    // 3A. supplyAsync
+    @Test
+    public void supplyAsync() {
+        CompletableFuture<String> cf = CompletableFuture.supplyAsync(() -> {
+            logger.debug("Sleeping...");
+            try {
+                Thread.sleep(1_000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            logger.debug("Exiting");
+            return "All done";
+        });
+        String join = cf.join();
+        logger.debug(join);
+    }
+
+    // 3B. supplyAsync
+    @Test
+    public void supplyAsyncWithExecutor() {
+        logger.debug("Starting");
+        CompletableFuture<String> cf = CompletableFuture.supplyAsync(() -> {
+            logger.debug("Exiting");
+            return "All done";
+        }, CompletableFuture.delayedExecutor(1, TimeUnit.SECONDS));
+        String join = cf.join();
+        logger.debug(join);
+    }
+
+    // 4A. test join
+    @Test
+    public void join() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("Completed value");
+        String join = cf.join();
+        logger.debug(join);
+    }
+
+    // 4B. test join with exception
+    @Test
+    public void joinWithException() {
+        CompletableFuture<String> cf = CompletableFuture.failedFuture(new IllegalArgumentException("Some exception"));
+        try
+        {
+            String join = cf.join();
+            logger.debug(join);
+        }
+        catch (CompletionException e) {
+            logger.debug(String.valueOf(e));
+            logger.debug(String.valueOf(e.getCause()));
+        }
+    }
+
+    // 5A. test get
+    @Test
+    public void get() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("Completed value");
+        try {
+            String join = cf.get();
+            logger.debug(join);
+        } catch (InterruptedException | ExecutionException e) {
+            logger.debug(String.valueOf(e));
+        }
+    }
+
+    // 5B. test getWithException
+    @Test
+    public void getWithException() {
+        CompletableFuture<String> cf = CompletableFuture.failedFuture(new IllegalArgumentException("Some exception"));
+        String join = null;
+        try {
+            join = cf.get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            logger.debug(String.valueOf(e));
+            logger.debug(String.valueOf(e.getCause()));
+        }
+        logger.debug(join);
+    }
+
+    // 6A. test getNow
+    @Test
+    public void getNow() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("Completed value");
+//        CompletableFuture<String> cf = new CompletableFuture<>();
+        String join = cf.getNow("Default value");
+        logger.debug(join);
+    }
+
+    // 6B. test getNow with Exception
+    @Test
+    public void getNowWithException() {
+        CompletableFuture<String> cf = CompletableFuture.failedFuture(new IllegalArgumentException("Some exception"));
+        String join = null;
+        try {
+            join = cf.getNow("Default value");
+        } catch (CompletionException e) {
+            logger.debug(String.valueOf(e));
+        }
+        logger.debug(join);
+    }
+
+    // 7A. obtrude
+    @Test
+    public void obtrude() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("completed");
+        logger.debug("1." + cf.join());
+        cf.complete("some completed value");
+        logger.debug("2." + cf.join());
+        cf.obtrudeValue("some obtruded value");
+        logger.debug("3." + cf.join());
+    }
+
+    // 7A. obtrudeException
+    @Test
+    public void obtrudeException() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("completed");
+        logger.debug("1." + cf.join());
+        cf.obtrudeException(new RuntimeException("You got the exception"));
+        cf.complete("some completed value");
+//        logger.debug("2." + cf.join());
+        cf.obtrudeValue("some obtruded value");
+        logger.debug("3." + cf.join());
+        String join = null;
+        try {
+            join = cf.join();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        logger.debug(join);
+    }
+
+    // 8. accept either
     @Test
     public void acceptEither() throws InterruptedException, ExecutionException, TimeoutException {
         logger.debug("Starting");
-        CompletableFuture<String> cf1 = new CompletableFuture();
-        CompletableFuture<String> cf2 = new CompletableFuture();
+        CompletableFuture<String> cf1 = new CompletableFuture<>();
+        CompletableFuture<String> cf2 = new CompletableFuture<>();
         // accept a consumer
         CompletableFuture<Void> cfEither = cf1.acceptEitherAsync(cf2, logger::debug,
             CompletableFuture.delayedExecutor(1, TimeUnit.SECONDS));
@@ -343,48 +491,6 @@ public class AllCasesFromExcel {
             logger.debug("Exception parsing currency conversions", e);
         }
         return currencies;
-    }
-
-    @SneakyThrows
-    @Test
-    public void obtrude() {
-        CompletableFuture<String> cf = CompletableFuture.supplyAsync(() ->
-        {
-            try {
-                Thread.sleep(5_000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            return "completed";
-        });
-        for (int i = 0; i < 3; i++) {
-            String join = cf.join();
-            logger.debug(join);
-            Thread.sleep(1_000);
-            switch (i) {
-                case 0:
-                    cf.complete("some completed value");
-                    break;
-                case 1:
-                    cf.obtrudeValue("some obtruded value");
-                    break;
-            }
-        }
-    }
-
-    @Test
-    public void obtrudeException() {
-        CompletableFuture<String> cf = CompletableFuture.supplyAsync(() -> {
-            while (true) ;
-        });
-        cf.obtrudeException(new RuntimeException("You got the exception"));
-        String join = null;
-        try {
-            join = cf.join();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        logger.debug(join);
     }
 
     private Map<GeoPoint, Dataset> convertDataSetToGeoCoordsMap(Dataset[] datasets) {
