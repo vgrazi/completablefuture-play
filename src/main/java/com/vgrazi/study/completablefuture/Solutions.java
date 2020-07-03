@@ -1,8 +1,9 @@
 package com.vgrazi.study.completablefuture;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vgrazi.study.completablefuture.parser.geo.Dataset;
-import com.vgrazi.study.completablefuture.parser.geo.Fields;
+import com.vgrazi.study.completablefuture.parser.account.Account;
+import com.vgrazi.study.completablefuture.parser.geo.GeoDataset;
+import com.vgrazi.study.completablefuture.parser.geo.GeoFields;
 import com.vgrazi.study.completablefuture.parser.geo.GeoPoint;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -273,7 +274,7 @@ public class Solutions {
 
     @Test
     public void thenApply() {
-        CompletableFuture cf1 = CompletableFuture.supplyAsync(()->{
+        CompletableFuture cf1 = CompletableFuture.supplyAsync(() -> {
             try {
                 Thread.sleep(1_000);
                 logger.debug("Waking");
@@ -286,9 +287,10 @@ public class Solutions {
         String join = cf.join();
         logger.debug(join);
     }
+
     @Test
     public void thenCompose() {
-        CompletableFuture cf1 = CompletableFuture.supplyAsync(()->{
+        CompletableFuture cf1 = CompletableFuture.supplyAsync(() -> {
             try {
                 Thread.sleep(1_000);
                 logger.debug("Waking");
@@ -299,7 +301,7 @@ public class Solutions {
         });
         CompletableFuture<String> cf = cf1.thenCompose(x ->
             CompletableFuture.supplyAsync(
-                ()-> x + "s"));
+                () -> x + "s"));
         String join = cf.join();
         logger.debug(join);
     }
@@ -308,32 +310,40 @@ public class Solutions {
     public void geoCoordinatesTest() throws IOException {
         logger.debug("Starting geocoordinate test");
 
-        CompletableFuture.supplyAsync(()-> {
-            Dataset[] datasets = new Dataset[0];
-            try {
-                ObjectMapper mapper = new ObjectMapper();
-                File file = new File("target/classes/us-zip-code-latitude-and-longitude.json");
-                datasets = mapper.readValue(file, Dataset[].class);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            return datasets;
-        }).thenApply(this::convertDataSetToZipcodeMap).thenAccept(map-> {
-            Fields fields = map.get("11223").getFields();
-            logger.info(String.format("11223 is in %s. Geocoords(Lat, long) = %s,%s", fields.getCity(), fields.getLatitude(), fields.getLongitude()));
-        })
+        parseUSZipCodes()
+            .thenAccept(map -> {
+                GeoFields fields = map.get("11223").getFields();
+                logger.info(String.format("11223 is in %s. Geocoords(Lat, long) = %s,%s", fields.getCity(), fields.getLatitude(), fields.getLongitude()));
+            })
             .join();
         logger.debug("Done geocoordinate test");
     }
 
-    private Map<GeoPoint, Dataset> convertDataSetToGeoCoordsMap(Dataset[] datasets) {
-        return Arrays.stream(datasets).collect(Collectors.toMap(dataset ->
-            new GeoPoint(dataset.getFields().getLatitude(), dataset.getFields().getLongitude())
-            , dataset -> dataset));
+    /**
+     * Read zip code file and convert to map&lt;Zip, GeoDataset>
+     */
+    private CompletableFuture<Map<String, GeoDataset>> parseUSZipCodes() {
+        return CompletableFuture.supplyAsync(() -> {
+            GeoDataset[] geoDatasets = new GeoDataset[0];
+            try {
+                ObjectMapper mapper = new ObjectMapper();
+                File file = new File("target/classes/us-zip-code-latitude-and-longitude.json");
+                geoDatasets = mapper.readValue(file, GeoDataset[].class);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return geoDatasets;
+        }).thenApply(this::convertDataSetToZipcodeMap);
     }
 
-    private Map<String, Dataset> convertDataSetToZipcodeMap(Dataset[] datasets) {
-        return Arrays.stream(datasets).collect(Collectors.toMap(dataset -> dataset.getFields().getZip(), dataset -> dataset));
+    private Map<GeoPoint, GeoDataset> convertDataSetToGeoCoordsMap(GeoDataset[] geoDatasets) {
+        return Arrays.stream(geoDatasets).collect(Collectors.toMap(geoDataset ->
+                new GeoPoint(geoDataset.getFields().getLatitude(), geoDataset.getFields().getLongitude())
+            , geoDataset -> geoDataset));
+    }
+
+    private Map<String, GeoDataset> convertDataSetToZipcodeMap(GeoDataset[] geoDatasets) {
+        return Arrays.stream(geoDatasets).collect(Collectors.toMap(geoDataset -> geoDataset.getFields().getZip(), geoDataset -> geoDataset));
     }
 
     public void keepAlive() {

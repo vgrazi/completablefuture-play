@@ -31,14 +31,14 @@ import lombok.ToString;
     }
  */
 @Getter @Setter @ToString
-public class Dataset {
+public class GeoDataset {
     @ToString.Exclude
     private String datasetid;
     @ToString.Exclude
     private String recordid;
     @ToString.Exclude
     private String record_timestamp;
-    private Fields fields;
+    private GeoFields fields;
     @ToString.Exclude
     private Geometry geometry;
 }

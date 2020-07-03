@@ -5,7 +5,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Getter @Setter @ToString
-public class Fields {
+public class GeoFields {
 //          "city": "Delray Beach",
 //          "zip": "33446",
 //          "dst": 1,
