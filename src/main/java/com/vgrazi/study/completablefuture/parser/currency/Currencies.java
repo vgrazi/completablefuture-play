@@ -8,8 +8,6 @@ import lombok.ToString;
 public class Currencies {
     long timestamp;
     private double usdusd;
-    private double usdaud;
     private double usdcad;
-    private double usdpln;
     private double usdmxn;
 }

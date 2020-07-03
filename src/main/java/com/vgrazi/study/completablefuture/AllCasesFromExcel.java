@@ -1,6 +1,7 @@
 package com.vgrazi.study.completablefuture;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.vgrazi.study.completablefuture.license.License;
 import com.vgrazi.study.completablefuture.parser.account.Account;
 import com.vgrazi.study.completablefuture.parser.currency.Currencies;
 import com.vgrazi.study.completablefuture.parser.geo.GeoDataset;
@@ -127,9 +128,9 @@ public class AllCasesFromExcel {
      * 3C. supplyAsync exception handling
      */
     @Test
-    public void  supplyAsyncExceptionHandling() {
+    public void supplyAsyncExceptionHandling() {
         CompletableFuture<List<Account>> cf = CompletableFuture.supplyAsync(() -> {
-            File jsonFile = new File("target/classes/accounts.jsonXXX");
+            File jsonFile = new File("target/classes/accounts.json");
             // must throw RuntimeException. Else, catch and rethrow RuntimeException
             Account[] accounts = readFile(jsonFile, Account[].class);
             return accounts;
@@ -396,19 +397,125 @@ public class AllCasesFromExcel {
         // 1. Read main file
         // 2. Read Geo file
         // 3. Read Currency conversions file
+        // 4. Read license plates file
         // strategy
         // 1. Create async jobs to read the 4 files into external maps
         // 2. When all are done, enrich the accounts file
         // 3. Write back the revised accounts file
-        // 4.
-        // 5.
+
+        List<Account> accountsList = new ArrayList<>();
+        Map<GeoPoint, GeoDataset> geoDatasetMap = new HashMap<>();
+        Map<String, Double> currencyMap = new HashMap<>();
+        Map<String, License> licenseMap = new HashMap<>();
+
+        CompletableFuture<List<Account>> accountCf = CompletableFuture.supplyAsync(() -> {
+            File file = new File("target/classes/accounts.json");
+            Account[] accounts = readFile(file, Account[].class);
+            return accounts;
+        }).thenApply(accounts -> {
+            List<Account> list = Arrays.asList(accounts);
+            accountsList.addAll(list);
+            return list;
+        }).exceptionally(e -> accountsList);
+
+        CompletableFuture<Map<GeoPoint, GeoDataset>>[] geoCF = new CompletableFuture[1];
+        geoCF[0] = CompletableFuture.supplyAsync(() -> {
+            File file = new File("target/classes/us-zip-code-latitude-and-longitude.json");
+            GeoDataset[] geoDatasets = readFile(file, GeoDataset[].class);
+            logger.debug("geoDatasets length:" + geoDatasets.length);
+            logger.debug("geoCF 1. is done:" + geoCF[0].isDone());
+            return geoDatasets;
+        }).thenApply(geoDatasets -> {
+            logger.debug("geoCF 2. is done:" + geoCF[0].isDone());
+            Map<GeoPoint, GeoDataset> geoPointGeoDatasetMap = convertDataSetToGeoCoordsMap(geoDatasets);
+            geoDatasetMap.putAll(geoPointGeoDatasetMap);
+            logger.debug("geoPointGeoDatasetMap size:" + geoDatasetMap.size());
+            return geoPointGeoDatasetMap;
+        }).exceptionally(e -> {
+            logger.debug("Exception " + e);
+            return geoDatasetMap;
+        });
+
+        geoCF[0].thenRun(() -> logger.debug("geoCF 3. is done:" + geoCF[0].isDone() + " Size:" + geoDatasetMap.size()));
+
+        CompletableFuture<Map<String, Double>> currencyCF = CompletableFuture.supplyAsync(() -> {
+            File file = new File("target/classes/currency-conversions.json");
+            Currencies currencies = readFile(file, Currencies.class);
+            return currencies;
+        }).thenApply(currencies -> {
+            currencyMap.put("usdcad", currencies.getUsdcad());
+            currencyMap.put("usdmxn", currencies.getUsdmxn());
+            currencyMap.put("usdusd", currencies.getUsdusd());
+            return currencyMap;
+        });
+
+        CompletableFuture<Map<String, License>> licensesCF = CompletableFuture.supplyAsync(() -> {
+            File file = new File("target/classes/licenses.json");
+            License[] licenses = readFile(file, License[].class);
+            return licenses;
+        }).thenApply(licenses -> {
+            Map<String, License> licensesMap = convertLicensesToLicenseMap(licenses);
+            licenseMap.putAll(licensesMap);
+            return licensesMap;
+        }).exceptionally(ex -> licenseMap);
+
+        CompletableFuture.allOf(geoCF[0], accountCf, currencyCF, licensesCF)
+            .thenRun(() -> {
+                logger.debug("In allOf");
+                try {
+                    logger.debug("accountCf :isDone():" + accountCf.isDone() + ": size:" + accountCf.get().size());
+                    logger.debug("geoCF :isDone():" + geoCF[0].isDone() + ": size:" + geoCF[0].get().size());
+                    logger.debug("currencyCF :isDone():" + currencyCF.isDone() + ": size:" + currencyCF.get().size());
+                    logger.debug("licensesCF :isDone():" + licensesCF.isDone() + ": size:" + licensesCF.get().size());
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    e.printStackTrace();
+                }
+                accountsList.forEach(account -> {
+                        GeoPoint geoPoint = account.getGeoPoint();
+                        GeoDataset geoDataset = geoDatasetMap.get(geoPoint);
+                        account.setCity(geoDataset.getFields().getCity());
+                        account.setState(geoDataset.getFields().getState());
+                        account.setZip(geoDataset.getFields().getZip());
+                    }
+                );
+            })
+            .thenRun(() ->
+                accountsList.forEach(account -> {
+                        String licenseId = account.getLicense();
+                        License license = licenseMap.get(licenseId);
+                        if (license != null) {
+                            String name = license.getName();
+                            account.setName(name);
+                        }
+                        else {
+                            logger.debug("No license id:" + licenseId);
+                        }
+                    }
+                ))
+            .thenRun(() ->
+                accountsList.forEach(account -> {
+                        String currency = account.getCurrency();
+                        account.setExchangeRate(currencyMap.get(currency));
+                    }
+                ))
+            .thenRun(() -> writeAccountFile(accountsList))
+            .join();
+        ;
+
+    }
+
+    private Map<String, License> convertLicensesToLicenseMap(License[] licenses) {
+        Map<String, License> licenseMap = Arrays.stream(licenses).collect(Collectors.toMap(License::getLicense, license -> license));
+        return licenseMap;
     }
 
     @Test
     public void geoCoordinatesTest() throws IOException {
         logger.debug("Starting geocoordinate test");
 
-        Map<String, GeoDataset> map = CompletableFuture.supplyAsync(this::parseGeoDatasets)
+        Map<String, GeoDataset> map = CompletableFuture.supplyAsync(this::readGeoDatasets)
             .thenApply(this::convertDataSetToZipcodeMap)
 //            .thenAccept(map -> {
 //                Fields fields = map.get("11223").getFields();
@@ -424,7 +531,7 @@ public class AllCasesFromExcel {
      *
      * @return
      */
-    private GeoDataset[] parseGeoDatasets() {
+    private GeoDataset[] readGeoDatasets() {
         GeoDataset[] geoDatasets = new GeoDataset[0];
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -472,12 +579,12 @@ public class AllCasesFromExcel {
             logger.debug("Running inner apply");
             return x;
         }).exceptionally(
-                e -> {
-                    logger.debug("Exception " + e);
-                    return new Account[0];
-                }).thenApply(
-                a -> Arrays.asList(a)
-            );
+            e -> {
+                logger.debug("Exception " + e);
+                return new Account[0];
+            }).thenApply(
+            a -> Arrays.asList(a)
+        );
         return completableFuture;
     }
 
@@ -492,6 +599,15 @@ public class AllCasesFromExcel {
             ObjectMapper mapper = new ObjectMapper();
             T records = mapper.readValue(jsonFile, clazz);
             return records;
+        } catch (IOException e) {
+            throw new UncheckedIOException(e);
+        }
+    }
+
+    private void writeAccountFile(List<Account> accountsList) {
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            mapper.writeValue(Paths.get("updatedAccounts.json").toFile(), accountsList);
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }
@@ -547,7 +663,7 @@ public class AllCasesFromExcel {
      */
     @Test
     public void writeLicenseFile() {
-        GeoDataset[] geoDatasets = parseGeoDatasets();
+        GeoDataset[] geoDatasets = readGeoDatasets();
         Path path = Paths.get("license.csv");
         try {
             Files.write(path, "".getBytes());
@@ -583,7 +699,7 @@ public class AllCasesFromExcel {
     private Map<GeoPoint, GeoDataset> convertDataSetToGeoCoordsMap(GeoDataset[] geoDatasets) {
         return Arrays.stream(geoDatasets).collect(Collectors.toMap(geoDataset ->
                 new GeoPoint(geoDataset.getFields().getLatitude(), geoDataset.getFields().getLongitude())
-            , geoDataset -> geoDataset));
+            , geoDataset -> geoDataset, (key1, key2) -> key1));
     }
 
     /**
