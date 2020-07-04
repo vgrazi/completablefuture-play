@@ -20,11 +20,6 @@ import java.util.stream.Collectors;
 public class WorkSheet {
     private final Logger logger = LoggerFactory.getLogger("");
 
-    private Map<String, License> convertLicensesToLicenseMap(License[] licenses) {
-        Map<String, License> licenseMap = Arrays.stream(licenses).collect(Collectors.toMap(License::getLicense, license -> license));
-        return licenseMap;
-    }
-
     @Test
     public void parseCoordinatesAndCities() {
         // Summary - we are tasked with preparing incoming customer data for indexing in Elasticsearch
@@ -85,6 +80,11 @@ public class WorkSheet {
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }
+    }
+
+    private Map<String, License> convertLicensesToLicenseMap(License[] licenses) {
+        Map<String, License> licenseMap = Arrays.stream(licenses).collect(Collectors.toMap(License::getLicense, license -> license));
+        return licenseMap;
     }
 
     /**
