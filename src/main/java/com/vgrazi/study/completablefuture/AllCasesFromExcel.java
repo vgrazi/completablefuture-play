@@ -25,56 +25,6 @@ import static org.junit.Assert.assertTrue;
 
 public class AllCasesFromExcel {
     private final Logger logger = LoggerFactory.getLogger("");
-    private CompletableFuture<Void> latch = new CompletableFuture();
-
-
-    // 1. Create a latch
-    @Test
-    public void latch() {
-        CompletableFuture<String> latch = new CompletableFuture();
-        for (int i = 0; i < 3; i++) {
-            new Thread(() -> {
-                logger.debug("waiting for latch");
-                String join = latch.join();
-                logger.debug("Done:" + join);
-            }).start();
-        }
-        new Thread(() -> {
-            try {
-                Thread.sleep(3_000);
-                logger.debug("Opening latch");
-                latch.complete("Opened latch");
-                logger.debug("Latch open");
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }).start();
-
-        String join = latch.join();
-        logger.debug("Latch open:" + join);
-
-    }
-
-    // 2. replace the wait's with CompletableFuture
-    @Test
-    public void latchWithDelayedExecutor() {
-        CompletableFuture<String> latch = new CompletableFuture();
-        for (int i = 0; i < 3; i++) {
-            CompletableFuture.runAsync(() -> {
-                logger.debug("waiting for latch");
-                String join = latch.join();
-                logger.debug("Done:" + join);
-            });
-        }
-        CompletableFuture.runAsync(() -> {
-            logger.debug("Opening latch");
-            latch.complete("Opened latch");
-            logger.debug("Latch open");
-        }, CompletableFuture.delayedExecutor(3, TimeUnit.SECONDS));
-
-        String join = latch.join();
-        logger.debug("Latch open:" + join);
-    }
 
     // 3. runAsync
     @Test
@@ -146,6 +96,55 @@ public class AllCasesFromExcel {
         logger.debug("Accounts size: " + accounts.size());
     }
 
+
+    // 1. Create a latch
+    @Test
+    public void latch() {
+        CompletableFuture<String> latch = new CompletableFuture();
+        for (int i = 0; i < 3; i++) {
+            new Thread(() -> {
+                logger.debug("waiting for latch");
+                String join = latch.join();
+                logger.debug("Done:" + join);
+            }).start();
+        }
+        new Thread(() -> {
+            try {
+                Thread.sleep(3_000);
+                logger.debug("Opening latch");
+                latch.complete("Opened latch");
+                logger.debug("Latch open");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
+
+        String join = latch.join();
+        logger.debug("Latch open:" + join);
+
+    }
+
+    // 2. replace the wait's with CompletableFuture
+    @Test
+    public void latchWithDelayedExecutor() {
+        CompletableFuture<String> latch = new CompletableFuture();
+        for (int i = 0; i < 3; i++) {
+            CompletableFuture.runAsync(() -> {
+                logger.debug("waiting for latch");
+                String join = latch.join();
+                logger.debug("Done:" + join);
+            });
+        }
+        CompletableFuture.runAsync(() -> {
+            logger.debug("Opening latch");
+            latch.complete("Opened latch");
+            logger.debug("Latch open");
+        }, CompletableFuture.delayedExecutor(3, TimeUnit.SECONDS));
+
+        String join = latch.join();
+        logger.debug("Latch open:" + join);
+    }
+    
 
     // 4A. test join
     @Test
@@ -286,7 +285,6 @@ public class AllCasesFromExcel {
     // 9B. then accept both
     @Test
     public void thenAcceptBoth() throws InterruptedException, ExecutionException, TimeoutException {
-        latch = CompletableFuture.completedFuture(null);
         logger.debug("Starting thenAcceptBoth");
         CompletableFuture<String> cf1 = new CompletableFuture<>();
         CompletableFuture<String> cf2 = new CompletableFuture<>();
@@ -355,7 +353,6 @@ public class AllCasesFromExcel {
 
     @Test
     public void allOf() {
-        keepAlive();
         logger.debug("Starting");
         CompletableFuture<String> cf1 = new CompletableFuture();
         CompletableFuture<String> cf2 = new CompletableFuture();
@@ -390,9 +387,9 @@ public class AllCasesFromExcel {
         // 1. The main file accounts.csv consists of:
         // Date, License plate #, geo coords of toll booth, pmnt currency
         // there are some fields that need to be enriched:
-        // 2. Geo coords - convertDataSetToZipcodeMap & convertDataSetToGeoCoordsMap
-        // 3. Currency rate - parseCurrencyConversions
-        // 4. License plates
+        // 2. Geo coords - convertDataSetToGeoCoordsMap(geoDatasets)
+        // 3. Currency rate - parseCurrencyConversions, then map usdcad, usdmxn, and usdusd to their exchange rate
+        // 4. License plates - convertLicensesToLicenseMap
         // Goal: Launch supplyAsync processes:
         // 1. Read main file
         // 2. Read Geo file
@@ -400,8 +397,8 @@ public class AllCasesFromExcel {
         // 4. Read license plates file
         // strategy
         // 1. Create async jobs to read the 4 files into external maps
-        // 2. When all are done, enrich the accounts file
-        // 3. Write back the revised accounts file
+        // 2. When all are done, enrich the accounts records
+        // 3. Write back the revised accounts file - writeAccountFile
 
         List<Account> accountsList = new ArrayList<>();
         Map<GeoPoint, GeoDataset> geoDatasetMap = new HashMap<>();
@@ -418,15 +415,12 @@ public class AllCasesFromExcel {
             return list;
         }).exceptionally(e -> accountsList);
 
-        CompletableFuture<Map<GeoPoint, GeoDataset>>[] geoCF = new CompletableFuture[1];
-        geoCF[0] = CompletableFuture.supplyAsync(() -> {
+        CompletableFuture<Map<GeoPoint, GeoDataset>> geoCF = CompletableFuture.supplyAsync(() -> {
             File file = new File("target/classes/us-zip-code-latitude-and-longitude.json");
             GeoDataset[] geoDatasets = readFile(file, GeoDataset[].class);
             logger.debug("geoDatasets length:" + geoDatasets.length);
-            logger.debug("geoCF 1. is done:" + geoCF[0].isDone());
             return geoDatasets;
         }).thenApply(geoDatasets -> {
-            logger.debug("geoCF 2. is done:" + geoCF[0].isDone());
             Map<GeoPoint, GeoDataset> geoPointGeoDatasetMap = convertDataSetToGeoCoordsMap(geoDatasets);
             geoDatasetMap.putAll(geoPointGeoDatasetMap);
             logger.debug("geoPointGeoDatasetMap size:" + geoDatasetMap.size());
@@ -435,8 +429,6 @@ public class AllCasesFromExcel {
             logger.debug("Exception " + e);
             return geoDatasetMap;
         });
-
-        geoCF[0].thenRun(() -> logger.debug("geoCF 3. is done:" + geoCF[0].isDone() + " Size:" + geoDatasetMap.size()));
 
         CompletableFuture<Map<String, Double>> currencyCF = CompletableFuture.supplyAsync(() -> {
             File file = new File("target/classes/currency-conversions.json");
@@ -459,12 +451,12 @@ public class AllCasesFromExcel {
             return licensesMap;
         }).exceptionally(ex -> licenseMap);
 
-        CompletableFuture.allOf(geoCF[0], accountCf, currencyCF, licensesCF)
+        CompletableFuture.allOf(geoCF, accountCf, currencyCF, licensesCF)
             .thenRun(() -> {
                 logger.debug("In allOf");
                 try {
                     logger.debug("accountCf :isDone():" + accountCf.isDone() + ": size:" + accountCf.get().size());
-                    logger.debug("geoCF :isDone():" + geoCF[0].isDone() + ": size:" + geoCF[0].get().size());
+                    logger.debug("geoCF :isDone():" + geoCF.isDone() + ": size:" + geoCF.get().size());
                     logger.debug("currencyCF :isDone():" + currencyCF.isDone() + ": size:" + currencyCF.get().size());
                     logger.debug("licensesCF :isDone():" + licensesCF.isDone() + ": size:" + licensesCF.get().size());
                 } catch (InterruptedException e) {
@@ -708,14 +700,4 @@ public class AllCasesFromExcel {
     private Map<String, GeoDataset> convertDataSetToZipcodeMap(GeoDataset[] geoDatasets) {
         return Arrays.stream(geoDatasets).collect(Collectors.toMap(geoDataset -> geoDataset.getFields().getZip(), geoDataset -> geoDataset));
     }
-
-    public void keepAlive() {
-        CompletableFuture<Void> future = latch.orTimeout(5, TimeUnit.SECONDS);
-        try {
-            future.join();
-        } catch (Exception e) {
-
-        }
-    }
-
 }
