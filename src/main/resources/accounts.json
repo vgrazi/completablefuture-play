@@ -1,0 +1,8634 @@
+[
+  {
+    "timezone": "-6",
+    "longitude": "-94.39398",
+    "latitude": "34.398483",
+    "dst": "1",
+    "license": "QYP-292",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.33081",
+    "latitude": "36.851944",
+    "dst": "1",
+    "license": "FU-675",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.902405",
+    "latitude": "37.833202",
+    "dst": "1",
+    "license": "EZP-930",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.17626",
+    "latitude": "44.033215",
+    "dst": "1",
+    "license": "HNY-382",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.79632",
+    "latitude": "40.52536",
+    "dst": "1",
+    "license": "IOE-466",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.43508",
+    "latitude": "40.393223",
+    "dst": "1",
+    "license": "IWH-7338",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.81179",
+    "latitude": "39.852406",
+    "dst": "1",
+    "license": "VN-101",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.18998",
+    "latitude": "36.046215",
+    "dst": "1",
+    "license": "PGW-3499",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.11376",
+    "latitude": "40.770042",
+    "dst": "1",
+    "license": "SZ-347",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.92921",
+    "latitude": "33.54462",
+    "dst": "1",
+    "license": "ST-9938",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.52587",
+    "latitude": "39.412827",
+    "dst": "1",
+    "license": "MUU-0217",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.90489",
+    "latitude": "41.50705",
+    "dst": "1",
+    "license": "CI-859",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.12266",
+    "latitude": "34.851864",
+    "dst": "1",
+    "license": "GO-0219",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.95248",
+    "latitude": "47.998466",
+    "dst": "1",
+    "license": "EFY-237",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.06067",
+    "latitude": "43.038967",
+    "dst": "1",
+    "license": "IFP-8908",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.27927",
+    "latitude": "29.039757",
+    "dst": "1",
+    "license": "XVL-404",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.81298",
+    "latitude": "37.85479",
+    "dst": "1",
+    "license": "JL-571",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.24804",
+    "latitude": "41.626587",
+    "dst": "0",
+    "license": "UP-2194",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.0318",
+    "latitude": "36.26796",
+    "dst": "1",
+    "license": "UD-3884",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.4584",
+    "latitude": "38.335106",
+    "dst": "1",
+    "license": "UQ-2208",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.11459",
+    "latitude": "41.4572",
+    "dst": "1",
+    "license": "KGE-0554",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.150826",
+    "latitude": "42.239933",
+    "dst": "1",
+    "license": "VX-9733",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.34568",
+    "latitude": "41.8788",
+    "dst": "1",
+    "license": "UJ-8617",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.97325",
+    "latitude": "40.308914",
+    "dst": "1",
+    "license": "OP-7230",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.10026",
+    "latitude": "36.569633",
+    "dst": "1",
+    "license": "AR-487",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.06053",
+    "latitude": "18.410461",
+    "dst": "0",
+    "license": "SAT-4364",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-116.90117",
+    "latitude": "43.653877",
+    "dst": "1",
+    "license": "ICA-2252",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.97718",
+    "latitude": "40.78075",
+    "dst": "1",
+    "license": "HL-004",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.28975",
+    "latitude": "39.19322",
+    "dst": "1",
+    "license": "YY-213",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.76777",
+    "latitude": "43.951668",
+    "dst": "1",
+    "license": "WN-022",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.64895",
+    "latitude": "37.644302",
+    "dst": "1",
+    "license": "KH-5933",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-102.47675",
+    "latitude": "31.019602",
+    "dst": "1",
+    "license": "IC-455",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-103.99465",
+    "latitude": "41.84962",
+    "dst": "1",
+    "license": "YJL-8882",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.38968",
+    "latitude": "33.752407",
+    "dst": "1",
+    "license": "KF-958",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.80916",
+    "latitude": "30.903688",
+    "dst": "1",
+    "license": "JCJ-3929",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.80248",
+    "latitude": "37.788147",
+    "dst": "1",
+    "license": "QAY-730",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.28464",
+    "latitude": "45.267353",
+    "dst": "1",
+    "license": "UR-9108",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-102.27362",
+    "latitude": "48.811974",
+    "dst": "1",
+    "license": "TU-872",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.68731",
+    "latitude": "39.32699",
+    "dst": "1",
+    "license": "JF-343",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.34956",
+    "latitude": "40.33978",
+    "dst": "0",
+    "license": "MRU-006",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.11175",
+    "latitude": "39.436768",
+    "dst": "1",
+    "license": "CY-0618",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.83365",
+    "latitude": "40.698486",
+    "dst": "1",
+    "license": "SD-0503",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.44877",
+    "latitude": "44.023712",
+    "dst": "1",
+    "license": "HQZ-020",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.26309",
+    "latitude": "40.438744",
+    "dst": "1",
+    "license": "FO-314",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.02641",
+    "latitude": "45.06211",
+    "dst": "1",
+    "license": "CW-622",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.9141",
+    "latitude": "37.5596",
+    "dst": "1",
+    "license": "IF-8787",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.03435",
+    "latitude": "37.457016",
+    "dst": "1",
+    "license": "OJR-057",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.36228",
+    "latitude": "43.830376",
+    "dst": "1",
+    "license": "VR-6216",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.01425",
+    "latitude": "43.466",
+    "dst": "1",
+    "license": "SH-510",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.03266",
+    "latitude": "40.893593",
+    "dst": "1",
+    "license": "YHA-9665",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.99947",
+    "latitude": "42.50927",
+    "dst": "1",
+    "license": "QZ-777",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.75871",
+    "latitude": "36.921463",
+    "dst": "1",
+    "license": "HHO-7178",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-117.17432",
+    "latitude": "33.742935",
+    "dst": "1",
+    "license": "CTY-844",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.31919",
+    "latitude": "30.408808",
+    "dst": "1",
+    "license": "SH-696",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.52512",
+    "latitude": "39.74163",
+    "dst": "1",
+    "license": "IB-185",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-108.02585",
+    "latitude": "37.713158",
+    "dst": "1",
+    "license": "UWU-767",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.67951",
+    "latitude": "37.742954",
+    "dst": "1",
+    "license": "PP-967",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.38348",
+    "latitude": "40.338585",
+    "dst": "1",
+    "license": "AU-2576",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.561844",
+    "latitude": "32.740334",
+    "dst": "1",
+    "license": "JS-244",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.37625",
+    "latitude": "33.200325",
+    "dst": "1",
+    "license": "ETA-822",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.32589",
+    "latitude": "35.619537",
+    "dst": "1",
+    "license": "GDC-849",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.86205",
+    "latitude": "42.059433",
+    "dst": "1",
+    "license": "HXT-849",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.78914",
+    "latitude": "40.563072",
+    "dst": "1",
+    "license": "YM-4286",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.57656",
+    "latitude": "35.99299",
+    "dst": "1",
+    "license": "PMG-071",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.95304",
+    "latitude": "40.207527",
+    "dst": "1",
+    "license": "RCB-3606",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.0025",
+    "latitude": "43.37314",
+    "dst": "1",
+    "license": "ED-333",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.11628",
+    "latitude": "33.20743",
+    "dst": "1",
+    "license": "IML-468",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.20853",
+    "latitude": "32.233376",
+    "dst": "1",
+    "license": "QXD-6217",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.01069",
+    "latitude": "42.469166",
+    "dst": "1",
+    "license": "QE-2281",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.08897",
+    "latitude": "47.641983",
+    "dst": "1",
+    "license": "SY-4962",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.680145",
+    "latitude": "35.26946",
+    "dst": "1",
+    "license": "PM-5353",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.29601",
+    "latitude": "41.607956",
+    "dst": "1",
+    "license": "XW-2043",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.54327",
+    "latitude": "31.752539",
+    "dst": "1",
+    "license": "ZV-517",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.17873",
+    "latitude": "42.882233",
+    "dst": "1",
+    "license": "PYU-160",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.59921",
+    "latitude": "42.079414",
+    "dst": "1",
+    "license": "BNV-9467",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.08301",
+    "latitude": "35.323097",
+    "dst": "1",
+    "license": "QJ-8624",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.02196",
+    "latitude": "41.97233",
+    "dst": "1",
+    "license": "KWT-701",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-117.99356",
+    "latitude": "33.792126",
+    "dst": "1",
+    "license": "AU-5754",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.57124",
+    "latitude": "30.0025",
+    "dst": "1",
+    "license": "AYP-1027",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.882744",
+    "latitude": "40.26569",
+    "dst": "1",
+    "license": "DQY-794",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.89295",
+    "latitude": "35.23579",
+    "dst": "1",
+    "license": "SEK-813",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.81209",
+    "latitude": "36.067295",
+    "dst": "1",
+    "license": "JNN-2763",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-110.81032",
+    "latitude": "32.179226",
+    "dst": "0",
+    "license": "CI-815",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.03728",
+    "latitude": "42.430683",
+    "dst": "1",
+    "license": "RMO-608",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.684265",
+    "latitude": "43.286022",
+    "dst": "1",
+    "license": "CZJ-5882",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.08703",
+    "latitude": "44.727386",
+    "dst": "1",
+    "license": "BOY-983",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.87038",
+    "latitude": "36.058613",
+    "dst": "1",
+    "license": "EMR-5926",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.75509",
+    "latitude": "36.58023",
+    "dst": "1",
+    "license": "PCQ-035",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-102.37108",
+    "latitude": "34.539265",
+    "dst": "1",
+    "license": "GV-974",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.572174",
+    "latitude": "41.672688",
+    "dst": "1",
+    "license": "LL-6179",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.64014",
+    "latitude": "41.335148",
+    "dst": "1",
+    "license": "KJ-0831",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.56203",
+    "latitude": "38.82469",
+    "dst": "1",
+    "license": "FB-2700",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.59471",
+    "latitude": "39.013638",
+    "dst": "1",
+    "license": "SZ-960",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.9507",
+    "latitude": "38.019104",
+    "dst": "1",
+    "license": "IH-800",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.50196",
+    "latitude": "30.560995",
+    "dst": "1",
+    "license": "RFB-638",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.31978",
+    "latitude": "41.599644",
+    "dst": "1",
+    "license": "FIW-440",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.94408",
+    "latitude": "30.799892",
+    "dst": "1",
+    "license": "LJQ-876",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.39577",
+    "latitude": "37.76653",
+    "dst": "1",
+    "license": "LCJ-467",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.63538",
+    "latitude": "41.888626",
+    "dst": "1",
+    "license": "QJ-465",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.25046",
+    "latitude": "42.84149",
+    "dst": "1",
+    "license": "LVF-3612",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.64911",
+    "latitude": "33.218456",
+    "dst": "1",
+    "license": "IBK-9037",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.29866",
+    "latitude": "33.786594",
+    "dst": "1",
+    "license": "LQI-9976",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.46635",
+    "latitude": "43.51182",
+    "dst": "1",
+    "license": "IYN-2820",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.34367",
+    "latitude": "37.25807",
+    "dst": "1",
+    "license": "KZN-850",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.75145",
+    "latitude": "41.345577",
+    "dst": "1",
+    "license": "LL-2642",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.17048",
+    "latitude": "44.164433",
+    "dst": "1",
+    "license": "UHM-977",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.54967",
+    "latitude": "40.77615",
+    "dst": "1",
+    "license": "EU-439",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.68004",
+    "latitude": "37.53299",
+    "dst": "1",
+    "license": "MSG-569",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.95666",
+    "latitude": "41.53101",
+    "dst": "1",
+    "license": "ZDN-5569",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.18987",
+    "latitude": "41.85063",
+    "dst": "1",
+    "license": "GP-7278",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.55791",
+    "latitude": "39.81863",
+    "dst": "1",
+    "license": "AK-5395",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.54487",
+    "latitude": "44.866238",
+    "dst": "1",
+    "license": "NT-5747",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.77904",
+    "latitude": "30.133007",
+    "dst": "1",
+    "license": "ZAJ-9196",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.74557",
+    "latitude": "38.020744",
+    "dst": "1",
+    "license": "FWX-5561",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.40089",
+    "latitude": "47.962135",
+    "dst": "1",
+    "license": "KJ-9869",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.41383",
+    "latitude": "44.555584",
+    "dst": "1",
+    "license": "UP-4750",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.05395",
+    "latitude": "39.694973",
+    "dst": "1",
+    "license": "NM-682",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.18897",
+    "latitude": "41.27724",
+    "dst": "1",
+    "license": "NFU-5668",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.83199",
+    "latitude": "38.899902",
+    "dst": "1",
+    "license": "JEV-1573",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.223946",
+    "latitude": "39.522015",
+    "dst": "1",
+    "license": "QDJ-5912",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.34323",
+    "latitude": "41.585884",
+    "dst": "1",
+    "license": "VFM-2901",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.05784",
+    "latitude": "34.734203",
+    "dst": "1",
+    "license": "KQ-2951",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.19013",
+    "latitude": "33.98022",
+    "dst": "1",
+    "license": "GTI-810",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.33926",
+    "latitude": "42.321453",
+    "dst": "1",
+    "license": "SG-0544",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.02541",
+    "latitude": "41.27955",
+    "dst": "1",
+    "license": "KUV-794",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-67.508064",
+    "latitude": "18.219023",
+    "dst": "0",
+    "license": "WOT-280",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.53498",
+    "latitude": "40.347755",
+    "dst": "1",
+    "license": "TJ-951",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.79264",
+    "latitude": "31.255241",
+    "dst": "1",
+    "license": "BEC-5202",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.46387",
+    "latitude": "40.80436",
+    "dst": "1",
+    "license": "BPE-382",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.05243",
+    "latitude": "35.63084",
+    "dst": "0",
+    "license": "XDN-677",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.81662",
+    "latitude": "39.056522",
+    "dst": "1",
+    "license": "ZPS-2459",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-68.081184",
+    "latitude": "44.39695",
+    "dst": "1",
+    "license": "WG-8507",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.6003",
+    "latitude": "46.630657",
+    "dst": "1",
+    "license": "JLG-3716",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.137",
+    "latitude": "45.680813",
+    "dst": "1",
+    "license": "QFO-307",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-123.76087",
+    "latitude": "39.43695",
+    "dst": "1",
+    "license": "YGT-331",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.30213",
+    "latitude": "34.505367",
+    "dst": "1",
+    "license": "SHU-742",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.84178",
+    "latitude": "29.838163",
+    "dst": "1",
+    "license": "WO-9356",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.67573",
+    "latitude": "46.871178",
+    "dst": "1",
+    "license": "GD-089",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.29148",
+    "latitude": "32.77142",
+    "dst": "1",
+    "license": "BY-8348",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.24657",
+    "latitude": "42.32692",
+    "dst": "1",
+    "license": "RW-777",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.75677",
+    "latitude": "45.386375",
+    "dst": "1",
+    "license": "XHD-475",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.97679",
+    "latitude": "40.751934",
+    "dst": "1",
+    "license": "MIO-9858",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.25737",
+    "latitude": "44.168987",
+    "dst": "1",
+    "license": "LW-1173",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.38322",
+    "latitude": "33.828815",
+    "dst": "1",
+    "license": "IQ-162",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.06279",
+    "latitude": "37.60342",
+    "dst": "1",
+    "license": "VE-296",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.68079",
+    "latitude": "34.360546",
+    "dst": "1",
+    "license": "RO-061",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.6064",
+    "latitude": "41.67176",
+    "dst": "1",
+    "license": "DWJ-5893",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.33829",
+    "latitude": "37.24122",
+    "dst": "1",
+    "license": "ROH-4826",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-115.96705",
+    "latitude": "34.839966",
+    "dst": "1",
+    "license": "NP-394",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.24606",
+    "latitude": "42.221764",
+    "dst": "1",
+    "license": "DM-2391",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.40008",
+    "latitude": "41.736423",
+    "dst": "1",
+    "license": "NLA-801",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.96763",
+    "latitude": "38.935246",
+    "dst": "1",
+    "license": "YHF-5263",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.30998",
+    "latitude": "33.958466",
+    "dst": "1",
+    "license": "TOC-4613",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.16415",
+    "latitude": "35.458805",
+    "dst": "1",
+    "license": "ZNM-775",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.80197",
+    "latitude": "42.293316",
+    "dst": "1",
+    "license": "DAO-458",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.18119",
+    "latitude": "34.06722",
+    "dst": "1",
+    "license": "NM-738",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.53537",
+    "latitude": "38.374397",
+    "dst": "1",
+    "license": "OQW-1138",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.46158",
+    "latitude": "29.437532",
+    "dst": "1",
+    "license": "ONS-265",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.01465",
+    "latitude": "38.89331",
+    "dst": "1",
+    "license": "LAI-6127",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.11554",
+    "latitude": "31.41265",
+    "dst": "1",
+    "license": "RKN-4075",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.84968",
+    "latitude": "37.602127",
+    "dst": "1",
+    "license": "KKY-619",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.45707",
+    "latitude": "39.22886",
+    "dst": "1",
+    "license": "RSL-3641",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.24031",
+    "latitude": "41.147118",
+    "dst": "1",
+    "license": "WP-4320",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-85.84117",
+    "latitude": "31.32579",
+    "dst": "1",
+    "license": "UZN-9551",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.40536",
+    "latitude": "42.9529",
+    "dst": "1",
+    "license": "FVR-844",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.5218",
+    "latitude": "43.029526",
+    "dst": "1",
+    "license": "XZ-804",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.09804",
+    "latitude": "45.82786",
+    "dst": "1",
+    "license": "UWV-3675",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.99071",
+    "latitude": "41.72469",
+    "dst": "1",
+    "license": "AR-8550",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.78615",
+    "latitude": "37.555084",
+    "dst": "1",
+    "license": "JF-252",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.4627",
+    "latitude": "27.984198",
+    "dst": "1",
+    "license": "FL-716",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.75646",
+    "latitude": "29.525461",
+    "dst": "1",
+    "license": "PF-1771",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.078316",
+    "latitude": "39.18779",
+    "dst": "1",
+    "license": "OOU-0519",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.68732",
+    "latitude": "41.811928",
+    "dst": "1",
+    "license": "CB-6923",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.36984",
+    "latitude": "44.731453",
+    "dst": "1",
+    "license": "UM-968",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.76788",
+    "latitude": "34.77665",
+    "dst": "0",
+    "license": "NGY-2707",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.96383",
+    "latitude": "41.240852",
+    "dst": "1",
+    "license": "VJG-3364",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.95969",
+    "latitude": "33.592587",
+    "dst": "1",
+    "license": "TZH-6897",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.96661",
+    "latitude": "37.558235",
+    "dst": "1",
+    "license": "LZ-9102",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.98464",
+    "latitude": "33.787308",
+    "dst": "1",
+    "license": "JC-1125",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.77649",
+    "latitude": "35.65363",
+    "dst": "1",
+    "license": "NGX-781",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.35315",
+    "latitude": "36.85107",
+    "dst": "1",
+    "license": "FQ-130",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.55585",
+    "latitude": "46.955864",
+    "dst": "1",
+    "license": "AY-6131",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.85783",
+    "latitude": "38.86147",
+    "dst": "1",
+    "license": "ZU-875",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.03409",
+    "latitude": "35.42638",
+    "dst": "1",
+    "license": "IFI-5432",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.10981",
+    "latitude": "40.087795",
+    "dst": "1",
+    "license": "DWC-648",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.17798",
+    "latitude": "30.658865",
+    "dst": "1",
+    "license": "NSV-700",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.82728",
+    "latitude": "39.518215",
+    "dst": "0",
+    "license": "OK-641",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.99349",
+    "latitude": "33.742886",
+    "dst": "1",
+    "license": "TOL-5630",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.88014",
+    "latitude": "41.272247",
+    "dst": "1",
+    "license": "CZS-3670",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.48319",
+    "latitude": "30.091158",
+    "dst": "1",
+    "license": "FF-488",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.88256",
+    "latitude": "30.032997",
+    "dst": "1",
+    "license": "BO-624",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.70739",
+    "latitude": "29.290602",
+    "dst": "1",
+    "license": "MS-573",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.32739",
+    "latitude": "35.685368",
+    "dst": "1",
+    "license": "GZ-462",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.38746",
+    "latitude": "43.217155",
+    "dst": "1",
+    "license": "SSV-9120",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.5876",
+    "latitude": "43.523174",
+    "dst": "1",
+    "license": "XR-488",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.70533",
+    "latitude": "37.189396",
+    "dst": "1",
+    "license": "PVO-549",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.60484",
+    "latitude": "42.17073",
+    "dst": "1",
+    "license": "NDY-9017",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-87.07647",
+    "latitude": "45.778065",
+    "dst": "1",
+    "license": "FN-4829",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.41651",
+    "latitude": "28.564167",
+    "dst": "1",
+    "license": "BVD-968",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.69991",
+    "latitude": "39.216637",
+    "dst": "1",
+    "license": "NI-468",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.51281",
+    "latitude": "36.894737",
+    "dst": "1",
+    "license": "QC-9075",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.73083",
+    "latitude": "41.159573",
+    "dst": "1",
+    "license": "QY-7479",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.1875",
+    "latitude": "33.472492",
+    "dst": "0",
+    "license": "OJ-084",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.87078",
+    "latitude": "40.65138",
+    "dst": "1",
+    "license": "GS-492",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.66279",
+    "latitude": "26.685125",
+    "dst": "1",
+    "license": "UZ-933",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.70634",
+    "latitude": "43.231506",
+    "dst": "1",
+    "license": "DMM-431",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.83218",
+    "latitude": "42.97228",
+    "dst": "1",
+    "license": "KV-454",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.02486",
+    "latitude": "41.2197",
+    "dst": "0",
+    "license": "LH-3685",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.092125",
+    "latitude": "39.034637",
+    "dst": "1",
+    "license": "HN-761",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.51355",
+    "latitude": "36.576138",
+    "dst": "1",
+    "license": "TEY-474",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.37478",
+    "latitude": "45.58056",
+    "dst": "1",
+    "license": "YKB-395",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.45817",
+    "latitude": "25.558428",
+    "dst": "1",
+    "license": "CTR-605",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.68732",
+    "latitude": "41.811928",
+    "dst": "1",
+    "license": "QA-1614",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.29866",
+    "latitude": "33.786594",
+    "dst": "1",
+    "license": "VO-529",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.72457",
+    "latitude": "28.051985",
+    "dst": "1",
+    "license": "NI-4116",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.33482",
+    "latitude": "37.381145",
+    "dst": "1",
+    "license": "HM-628",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.19197",
+    "latitude": "37.780712",
+    "dst": "1",
+    "license": "PTE-7915",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.26096",
+    "latitude": "46.274326",
+    "dst": "1",
+    "license": "ZL-127",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.14822",
+    "latitude": "43.21892",
+    "dst": "1",
+    "license": "BD-573",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.7278",
+    "latitude": "37.78483",
+    "dst": "1",
+    "license": "FFI-571",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.26036",
+    "latitude": "31.309195",
+    "dst": "1",
+    "license": "KRK-7894",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.29866",
+    "latitude": "33.786594",
+    "dst": "1",
+    "license": "QA-028",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-102.4235",
+    "latitude": "48.36698",
+    "dst": "1",
+    "license": "FD-3599",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.19797",
+    "latitude": "47.89345",
+    "dst": "1",
+    "license": "BJC-5356",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-9",
+    "longitude": "-154.41957",
+    "latitude": "62.999214",
+    "dst": "1",
+    "license": "WA-836",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.77263",
+    "latitude": "35.18787",
+    "dst": "1",
+    "license": "VA-2006",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.86027",
+    "latitude": "41.52668",
+    "dst": "1",
+    "license": "AH-083",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.4801",
+    "latitude": "33.85379",
+    "dst": "1",
+    "license": "FC-571",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.37096",
+    "latitude": "47.80367",
+    "dst": "1",
+    "license": "POZ-2973",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.57637",
+    "latitude": "41.380592",
+    "dst": "1",
+    "license": "NC-132",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.05854",
+    "latitude": "38.819862",
+    "dst": "1",
+    "license": "QS-679",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.471504",
+    "latitude": "38.02827",
+    "dst": "1",
+    "license": "EP-248",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.22328",
+    "latitude": "28.744753",
+    "dst": "1",
+    "license": "XO-9652",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.43027",
+    "latitude": "26.645895",
+    "dst": "1",
+    "license": "NPE-0891",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.15574",
+    "latitude": "41.5615",
+    "dst": "1",
+    "license": "GG-230",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.69382",
+    "latitude": "42.177464",
+    "dst": "1",
+    "license": "DQ-221",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.00403",
+    "latitude": "34.297752",
+    "dst": "1",
+    "license": "HG-343",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.40573",
+    "latitude": "37.364548",
+    "dst": "1",
+    "license": "GA-582",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-85.43152",
+    "latitude": "32.522568",
+    "dst": "1",
+    "license": "TIP-8562",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.48003",
+    "latitude": "35.69817",
+    "dst": "1",
+    "license": "BB-2907",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-102.35435",
+    "latitude": "31.765163",
+    "dst": "1",
+    "license": "RZ-733",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-124.06328",
+    "latitude": "44.75882",
+    "dst": "1",
+    "license": "ODY-292",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.38625",
+    "latitude": "40.41277",
+    "dst": "1",
+    "license": "RFY-1189",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.01487",
+    "latitude": "34.00116",
+    "dst": "1",
+    "license": "VN-6665",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-106.29999",
+    "latitude": "31.694841",
+    "dst": "1",
+    "license": "RV-289",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.47193",
+    "latitude": "42.64243",
+    "dst": "1",
+    "license": "QZ-0694",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.54784",
+    "latitude": "43.96682",
+    "dst": "1",
+    "license": "JLH-191",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.50969",
+    "latitude": "32.884136",
+    "dst": "1",
+    "license": "YDR-290",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.56443",
+    "latitude": "38.624863",
+    "dst": "1",
+    "license": "XOU-901",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.085",
+    "latitude": "41.9134",
+    "dst": "1",
+    "license": "XN-4767",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.14416",
+    "latitude": "37.705948",
+    "dst": "1",
+    "license": "RMP-3555",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.876175",
+    "latitude": "38.36475",
+    "dst": "0",
+    "license": "ZBG-886",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.597046",
+    "latitude": "39.5645",
+    "dst": "1",
+    "license": "XH-5485",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.17544",
+    "latitude": "39.707176",
+    "dst": "1",
+    "license": "JN-147",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.84577",
+    "latitude": "37.72738",
+    "dst": "1",
+    "license": "MIR-073",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.43027",
+    "latitude": "26.645895",
+    "dst": "1",
+    "license": "ITH-227",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.08527",
+    "latitude": "47.45005",
+    "dst": "1",
+    "license": "EA-447",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.25782",
+    "latitude": "32.356987",
+    "dst": "1",
+    "license": "ME-267",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.4557",
+    "latitude": "42.12414",
+    "dst": "1",
+    "license": "CA-1028",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.08108",
+    "latitude": "45.503624",
+    "dst": "1",
+    "license": "JV-2374",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.17798",
+    "latitude": "30.658865",
+    "dst": "1",
+    "license": "WD-7522",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.25527",
+    "latitude": "38.051823",
+    "dst": "1",
+    "license": "WM-0033",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.42386",
+    "latitude": "43.06956",
+    "dst": "1",
+    "license": "UGJ-570",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.45985",
+    "latitude": "39.70439",
+    "dst": "1",
+    "license": "RA-3081",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.12923",
+    "latitude": "38.566364",
+    "dst": "1",
+    "license": "DX-404",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.1676",
+    "latitude": "39.37277",
+    "dst": "1",
+    "license": "ZPO-772",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.11828",
+    "latitude": "44.84796",
+    "dst": "1",
+    "license": "UX-939",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.40762",
+    "latitude": "42.05162",
+    "dst": "1",
+    "license": "ZE-5611",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.4846",
+    "latitude": "46.368607",
+    "dst": "1",
+    "license": "YLH-9204",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.18286",
+    "latitude": "40.945198",
+    "dst": "1",
+    "license": "JUN-0206",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.69409",
+    "latitude": "41.685375",
+    "dst": "0",
+    "license": "XA-011",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.706856",
+    "latitude": "34.869965",
+    "dst": "1",
+    "license": "NMK-2786",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.10273",
+    "latitude": "40.019657",
+    "dst": "1",
+    "license": "AD-656",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.4343",
+    "latitude": "31.796576",
+    "dst": "1",
+    "license": "UMM-9254",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.57129",
+    "latitude": "48.085854",
+    "dst": "1",
+    "license": "JQK-7994",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.69417",
+    "latitude": "37.792343",
+    "dst": "1",
+    "license": "TTK-316",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.998344",
+    "latitude": "32.050694",
+    "dst": "1",
+    "license": "HO-690",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.14028",
+    "latitude": "44.01625",
+    "dst": "1",
+    "license": "GT-2731",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.718834",
+    "latitude": "41.791775",
+    "dst": "1",
+    "license": "FET-3287",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.74638",
+    "latitude": "37.597233",
+    "dst": "1",
+    "license": "WL-841",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.23842",
+    "latitude": "44.221573",
+    "dst": "1",
+    "license": "LCD-356",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.14628",
+    "latitude": "43.443684",
+    "dst": "1",
+    "license": "ARJ-993",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.12165",
+    "latitude": "32.993572",
+    "dst": "1",
+    "license": "LM-305",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.37113",
+    "latitude": "38.500732",
+    "dst": "1",
+    "license": "XE-1380",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.21773",
+    "latitude": "33.978405",
+    "dst": "1",
+    "license": "QV-2824",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.67949",
+    "latitude": "39.007755",
+    "dst": "1",
+    "license": "OEI-1858",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.42258",
+    "latitude": "35.686768",
+    "dst": "1",
+    "license": "XQ-3759",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.55028",
+    "latitude": "38.067326",
+    "dst": "1",
+    "license": "AEW-084",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.82289",
+    "latitude": "39.889545",
+    "dst": "1",
+    "license": "ST-4076",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.34164",
+    "latitude": "37.17534",
+    "dst": "1",
+    "license": "PAX-567",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.17913",
+    "latitude": "34.777237",
+    "dst": "1",
+    "license": "AV-804",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.23191",
+    "latitude": "40.593037",
+    "dst": "0",
+    "license": "AD-591",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.95511",
+    "latitude": "44.87939",
+    "dst": "1",
+    "license": "QD-6934",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.23617",
+    "latitude": "37.58605",
+    "dst": "1",
+    "license": "RG-4823",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.907646",
+    "latitude": "46.98552",
+    "dst": "1",
+    "license": "KPZ-069",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.85376",
+    "latitude": "45.352085",
+    "dst": "1",
+    "license": "RP-216",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.8231",
+    "latitude": "40.69686",
+    "dst": "1",
+    "license": "HCC-897",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.39598",
+    "latitude": "33.494286",
+    "dst": "1",
+    "license": "KXL-991",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.29866",
+    "latitude": "33.786594",
+    "dst": "1",
+    "license": "ULI-296",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-115.96705",
+    "latitude": "34.839966",
+    "dst": "1",
+    "license": "HW-2317",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.93572",
+    "latitude": "41.120846",
+    "dst": "1",
+    "license": "MM-7455",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.9215",
+    "latitude": "37.68018",
+    "dst": "1",
+    "license": "VGG-616",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-115.9555",
+    "latitude": "47.495304",
+    "dst": "1",
+    "license": "ZR-0842",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.04535",
+    "latitude": "47.625362",
+    "dst": "1",
+    "license": "YK-670",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.28766",
+    "latitude": "44.05448",
+    "dst": "1",
+    "license": "BN-472",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.97461",
+    "latitude": "38.97601",
+    "dst": "1",
+    "license": "FMY-444",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.07641",
+    "latitude": "35.141743",
+    "dst": "1",
+    "license": "BL-081",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.1343",
+    "latitude": "34.032383",
+    "dst": "1",
+    "license": "WE-964",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.52292",
+    "latitude": "40.86888",
+    "dst": "1",
+    "license": "HW-3226",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.44443",
+    "latitude": "38.37741",
+    "dst": "1",
+    "license": "AE-927",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.05679",
+    "latitude": "41.707333",
+    "dst": "1",
+    "license": "HAD-821",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.49316",
+    "latitude": "37.524246",
+    "dst": "1",
+    "license": "NBD-7320",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.17215",
+    "latitude": "33.455032",
+    "dst": "1",
+    "license": "JN-364",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.53822",
+    "latitude": "39.16676",
+    "dst": "1",
+    "license": "MB-900",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.25253",
+    "latitude": "41.671196",
+    "dst": "0",
+    "license": "NT-7352",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.5958",
+    "latitude": "39.297623",
+    "dst": "1",
+    "license": "GB-619",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.13525",
+    "latitude": "43.304058",
+    "dst": "1",
+    "license": "VCH-1490",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.3665",
+    "latitude": "26.974857",
+    "dst": "1",
+    "license": "NKV-647",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.32063",
+    "latitude": "33.321346",
+    "dst": "1",
+    "license": "UX-967",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.37126",
+    "latitude": "47.737026",
+    "dst": "1",
+    "license": "YAD-742",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.21624",
+    "latitude": "31.247946",
+    "dst": "1",
+    "license": "FU-476",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.74227",
+    "latitude": "41.328735",
+    "dst": "1",
+    "license": "WS-1795",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.40542",
+    "latitude": "32.92398",
+    "dst": "1",
+    "license": "LYD-543",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.30538",
+    "latitude": "40.110203",
+    "dst": "1",
+    "license": "IC-479",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.89505",
+    "latitude": "38.078495",
+    "dst": "1",
+    "license": "CII-189",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.47188",
+    "latitude": "45.015915",
+    "dst": "1",
+    "license": "XE-269",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.40987",
+    "latitude": "41.554665",
+    "dst": "1",
+    "license": "DTR-5599",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.48507",
+    "latitude": "38.0401",
+    "dst": "1",
+    "license": "LL-6503",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.01502",
+    "latitude": "31.57344",
+    "dst": "1",
+    "license": "AX-228",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.3856",
+    "latitude": "43.514866",
+    "dst": "1",
+    "license": "TP-459",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.98373",
+    "latitude": "45.021015",
+    "dst": "1",
+    "license": "NQ-251",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.39082",
+    "latitude": "36.179813",
+    "dst": "1",
+    "license": "JJ-433",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.43771",
+    "latitude": "43.114117",
+    "dst": "1",
+    "license": "WIS-2637",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.05309",
+    "latitude": "39.049698",
+    "dst": "1",
+    "license": "KZI-8060",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.47405",
+    "latitude": "33.84437",
+    "dst": "1",
+    "license": "NWX-624",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.33611",
+    "latitude": "41.866272",
+    "dst": "1",
+    "license": "DAQ-7617",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.29136",
+    "latitude": "42.34381",
+    "dst": "1",
+    "license": "CS-9986",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-107.7646",
+    "latitude": "42.444748",
+    "dst": "1",
+    "license": "ACW-725",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.91963",
+    "latitude": "42.338947",
+    "dst": "1",
+    "license": "JU-7814",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.80415",
+    "latitude": "35.26002",
+    "dst": "1",
+    "license": "UGO-9155",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.17527",
+    "latitude": "32.76263",
+    "dst": "1",
+    "license": "VZC-598",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.94802",
+    "latitude": "30.93709",
+    "dst": "1",
+    "license": "HV-877",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.8297",
+    "latitude": "40.577778",
+    "dst": "1",
+    "license": "ST-5243",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.86455",
+    "latitude": "30.96373",
+    "dst": "1",
+    "license": "BP-998",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.65401",
+    "latitude": "35.150887",
+    "dst": "1",
+    "license": "JSK-2029",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.82739",
+    "latitude": "32.586006",
+    "dst": "1",
+    "license": "KCR-3587",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-115.9565",
+    "latitude": "33.28935",
+    "dst": "1",
+    "license": "AQX-172",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.385345",
+    "latitude": "39.285206",
+    "dst": "1",
+    "license": "RGS-959",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.07071",
+    "latitude": "41.09376",
+    "dst": "0",
+    "license": "HHJ-478",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.64823",
+    "latitude": "41.44502",
+    "dst": "1",
+    "license": "STC-031",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.20762",
+    "latitude": "39.14398",
+    "dst": "1",
+    "license": "ERE-1814",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.14303",
+    "latitude": "40.84296",
+    "dst": "1",
+    "license": "YX-782",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.42687",
+    "latitude": "37.975594",
+    "dst": "1",
+    "license": "TH-268",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.15783",
+    "latitude": "37.36398",
+    "dst": "1",
+    "license": "OST-249",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.67126",
+    "latitude": "39.458683",
+    "dst": "1",
+    "license": "TVP-629",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.223946",
+    "latitude": "39.522015",
+    "dst": "1",
+    "license": "FHA-1375",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.91348",
+    "latitude": "39.68844",
+    "dst": "1",
+    "license": "CJS-5785",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.97827",
+    "latitude": "36.718307",
+    "dst": "1",
+    "license": "REK-8941",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.99227",
+    "latitude": "42.24721",
+    "dst": "1",
+    "license": "EW-0867",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.50491",
+    "latitude": "48.52845",
+    "dst": "1",
+    "license": "QX-9427",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.44131",
+    "latitude": "31.049091",
+    "dst": "1",
+    "license": "SI-0596",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.12506",
+    "latitude": "44.64079",
+    "dst": "1",
+    "license": "CWH-5683",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.24912",
+    "latitude": "42.40359",
+    "dst": "1",
+    "license": "FL-217",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.50223",
+    "latitude": "34.644386",
+    "dst": "1",
+    "license": "RQQ-4261",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-106.29526",
+    "latitude": "35.863857",
+    "dst": "1",
+    "license": "LM-858",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.00071",
+    "latitude": "38.39805",
+    "dst": "1",
+    "license": "QF-4683",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.88297",
+    "latitude": "45.903",
+    "dst": "1",
+    "license": "MQB-2727",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.31369",
+    "latitude": "36.83075",
+    "dst": "1",
+    "license": "XZL-9848",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.47715",
+    "latitude": "39.223923",
+    "dst": "1",
+    "license": "OWC-9253",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-9",
+    "longitude": "-145.52768",
+    "latitude": "68.121826",
+    "dst": "1",
+    "license": "HVD-6597",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.13983",
+    "latitude": "40.08981",
+    "dst": "1",
+    "license": "HWC-8645",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.14763",
+    "latitude": "30.584787",
+    "dst": "1",
+    "license": "GS-527",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.87722",
+    "latitude": "39.315914",
+    "dst": "1",
+    "license": "DJ-1358",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.05538",
+    "latitude": "35.813335",
+    "dst": "1",
+    "license": "EGP-483",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.94635",
+    "latitude": "34.6076",
+    "dst": "1",
+    "license": "OAV-8938",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.4988",
+    "latitude": "42.90777",
+    "dst": "1",
+    "license": "PD-769",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.2167",
+    "latitude": "37.040035",
+    "dst": "1",
+    "license": "DJ-707",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.78269",
+    "latitude": "42.97387",
+    "dst": "1",
+    "license": "GNF-020",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.90485",
+    "latitude": "34.7081",
+    "dst": "1",
+    "license": "QHD-8112",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.71659",
+    "latitude": "30.289307",
+    "dst": "1",
+    "license": "GQ-071",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.62602",
+    "latitude": "37.779022",
+    "dst": "1",
+    "license": "FF-246",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.2869",
+    "latitude": "46.782784",
+    "dst": "1",
+    "license": "VHK-895",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.66927",
+    "latitude": "41.900333",
+    "dst": "1",
+    "license": "AHF-492",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.46181",
+    "latitude": "30.60998",
+    "dst": "1",
+    "license": "EU-873",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.65604",
+    "latitude": "40.3044",
+    "dst": "1",
+    "license": "HJV-830",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.84998",
+    "latitude": "44.237843",
+    "dst": "1",
+    "license": "RQ-242",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.13949",
+    "latitude": "48.95445",
+    "dst": "1",
+    "license": "PGZ-9466",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.57545",
+    "latitude": "39.317974",
+    "dst": "1",
+    "license": "NF-506",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.13569",
+    "latitude": "41.53446",
+    "dst": "1",
+    "license": "YIO-123",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.16115",
+    "latitude": "40.64395",
+    "dst": "1",
+    "license": "DV-2543",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.51296",
+    "latitude": "40.434998",
+    "dst": "1",
+    "license": "WE-0122",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.85827",
+    "latitude": "42.73081",
+    "dst": "1",
+    "license": "WRD-0735",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.985916",
+    "latitude": "40.84335",
+    "dst": "1",
+    "license": "SO-185",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.49316",
+    "latitude": "37.524246",
+    "dst": "1",
+    "license": "AJ-7947",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.74996",
+    "latitude": "33.10757",
+    "dst": "1",
+    "license": "XT-079",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.96009",
+    "latitude": "40.99303",
+    "dst": "1",
+    "license": "HO-9114",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.27506",
+    "latitude": "40.18981",
+    "dst": "1",
+    "license": "AC-042",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-113.31639",
+    "latitude": "43.65183",
+    "dst": "1",
+    "license": "GKM-4924",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-115.83204",
+    "latitude": "47.626186",
+    "dst": "1",
+    "license": "UOY-956",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.83215",
+    "latitude": "38.751038",
+    "dst": "1",
+    "license": "RFP-6560",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-102.66391",
+    "latitude": "46.820187",
+    "dst": "1",
+    "license": "YK-4328",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.81552",
+    "latitude": "36.88708",
+    "dst": "1",
+    "license": "SNV-083",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.59214",
+    "latitude": "39.438965",
+    "dst": "1",
+    "license": "KPF-1936",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.61155",
+    "latitude": "41.231148",
+    "dst": "1",
+    "license": "OFQ-7470",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-65.65248",
+    "latitude": "18.326733",
+    "dst": "0",
+    "license": "HO-4764",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.43769",
+    "latitude": "35.784367",
+    "dst": "1",
+    "license": "PN-979",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.90363",
+    "latitude": "43.03876",
+    "dst": "1",
+    "license": "XI-936",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.93616",
+    "latitude": "39.022255",
+    "dst": "1",
+    "license": "IV-1024",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.17137",
+    "latitude": "37.639492",
+    "dst": "1",
+    "license": "YM-714",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.54126",
+    "latitude": "40.298763",
+    "dst": "1",
+    "license": "ATK-8466",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.46376",
+    "latitude": "42.989983",
+    "dst": "1",
+    "license": "OP-918",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.9435",
+    "latitude": "38.74076",
+    "dst": "1",
+    "license": "GRN-942",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.34943",
+    "latitude": "47.45882",
+    "dst": "1",
+    "license": "KRZ-105",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.06754",
+    "latitude": "33.868313",
+    "dst": "1",
+    "license": "FUS-2701",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.02753",
+    "latitude": "41.598236",
+    "dst": "1",
+    "license": "KF-3865",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.04514",
+    "latitude": "30.35469",
+    "dst": "1",
+    "license": "QEG-041",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.46483",
+    "latitude": "40.45553",
+    "dst": "1",
+    "license": "NF-114",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-117.76944",
+    "latitude": "33.6403",
+    "dst": "1",
+    "license": "XHP-7088",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.5275",
+    "latitude": "39.472363",
+    "dst": "1",
+    "license": "YNQ-661",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.12255",
+    "latitude": "29.968925",
+    "dst": "1",
+    "license": "XS-778",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.87555",
+    "latitude": "27.39171",
+    "dst": "1",
+    "license": "NTR-7300",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.43027",
+    "latitude": "26.645895",
+    "dst": "1",
+    "license": "KN-456",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.63585",
+    "latitude": "42.92568",
+    "dst": "1",
+    "license": "HRT-306",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.93064",
+    "latitude": "40.952812",
+    "dst": "1",
+    "license": "FK-0432",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.65145",
+    "latitude": "36.619953",
+    "dst": "1",
+    "license": "ZU-019",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.00254",
+    "latitude": "40.6788",
+    "dst": "1",
+    "license": "QA-9239",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.65456",
+    "latitude": "35.254223",
+    "dst": "1",
+    "license": "KVZ-933",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.02312",
+    "latitude": "38.887333",
+    "dst": "1",
+    "license": "UM-451",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.79396",
+    "latitude": "32.96903",
+    "dst": "1",
+    "license": "SM-311",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.74913",
+    "latitude": "46.868176",
+    "dst": "1",
+    "license": "IQG-798",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-10",
+    "longitude": "-159.58221",
+    "latitude": "21.910767",
+    "dst": "0",
+    "license": "PLF-909",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.737015",
+    "latitude": "37.147686",
+    "dst": "1",
+    "license": "EF-0163",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.69614",
+    "latitude": "38.29617",
+    "dst": "1",
+    "license": "SN-9604",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.69887",
+    "latitude": "48.797043",
+    "dst": "1",
+    "license": "QF-814",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.3631",
+    "latitude": "39.559425",
+    "dst": "1",
+    "license": "CK-3987",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.79531",
+    "latitude": "42.31134",
+    "dst": "1",
+    "license": "AP-160",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.55588",
+    "latitude": "41.84587",
+    "dst": "1",
+    "license": "MF-747",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.9349",
+    "latitude": "36.015392",
+    "dst": "1",
+    "license": "NFF-5225",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.51296",
+    "latitude": "39.281487",
+    "dst": "1",
+    "license": "SD-443",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.08372",
+    "latitude": "45.32904",
+    "dst": "1",
+    "license": "THB-2687",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.21099",
+    "latitude": "45.786324",
+    "dst": "1",
+    "license": "IU-5301",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.86638",
+    "latitude": "40.394882",
+    "dst": "1",
+    "license": "PI-588",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.38425",
+    "latitude": "35.241413",
+    "dst": "1",
+    "license": "KE-306",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.11787",
+    "latitude": "40.001812",
+    "dst": "1",
+    "license": "FW-884",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.03742",
+    "latitude": "35.94901",
+    "dst": "1",
+    "license": "DNY-226",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.6899",
+    "latitude": "41.92112",
+    "dst": "1",
+    "license": "IX-864",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.40838",
+    "latitude": "36.433666",
+    "dst": "1",
+    "license": "JY-385",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.64704",
+    "latitude": "30.112587",
+    "dst": "1",
+    "license": "SK-8964",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-115.96705",
+    "latitude": "34.839966",
+    "dst": "1",
+    "license": "YI-8559",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.43109",
+    "latitude": "42.84391",
+    "dst": "1",
+    "license": "GPA-7074",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.70392",
+    "latitude": "35.83054",
+    "dst": "1",
+    "license": "NC-605",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.22291",
+    "latitude": "17.970112",
+    "dst": "0",
+    "license": "XNM-482",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.6961",
+    "latitude": "35.724846",
+    "dst": "1",
+    "license": "TBG-6570",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.67356",
+    "latitude": "41.58704",
+    "dst": "1",
+    "license": "MFJ-0387",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.95173",
+    "latitude": "41.91507",
+    "dst": "1",
+    "license": "YZU-1629",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.72979",
+    "latitude": "32.432854",
+    "dst": "1",
+    "license": "II-7880",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.43534",
+    "latitude": "35.8644",
+    "dst": "1",
+    "license": "NU-322",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.88709",
+    "latitude": "42.768414",
+    "dst": "1",
+    "license": "XSA-660",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.57924",
+    "latitude": "38.046356",
+    "dst": "1",
+    "license": "SGU-6719",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.04089",
+    "latitude": "39.652454",
+    "dst": "1",
+    "license": "NP-903",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.79351",
+    "latitude": "44.729523",
+    "dst": "1",
+    "license": "WEC-5888",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.15101",
+    "latitude": "41.071682",
+    "dst": "0",
+    "license": "GEH-8977",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.70607",
+    "latitude": "39.52317",
+    "dst": "1",
+    "license": "QE-9895",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.97286",
+    "latitude": "42.790737",
+    "dst": "1",
+    "license": "YN-976",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.6603",
+    "latitude": "40.372448",
+    "dst": "1",
+    "license": "KEI-011",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.59122",
+    "latitude": "47.854504",
+    "dst": "1",
+    "license": "TMG-1538",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.28909",
+    "latitude": "36.641743",
+    "dst": "1",
+    "license": "MUR-7524",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.34415",
+    "latitude": "37.037945",
+    "dst": "1",
+    "license": "LH-729",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.67961",
+    "latitude": "35.913937",
+    "dst": "1",
+    "license": "KEC-529",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.75809",
+    "latitude": "42.634197",
+    "dst": "1",
+    "license": "MMR-445",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.73595",
+    "latitude": "31.718382",
+    "dst": "1",
+    "license": "CA-5830",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-85.1146",
+    "latitude": "31.52151",
+    "dst": "1",
+    "license": "VZI-627",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.95611",
+    "latitude": "38.47355",
+    "dst": "1",
+    "license": "KAG-482",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-85.55772",
+    "latitude": "35.817417",
+    "dst": "1",
+    "license": "ZG-8209",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.59656",
+    "latitude": "36.735893",
+    "dst": "1",
+    "license": "AIO-2074",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-123.00661",
+    "latitude": "44.96554",
+    "dst": "1",
+    "license": "WYB-9606",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.39927",
+    "latitude": "38.716236",
+    "dst": "1",
+    "license": "BPT-6157",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.06213",
+    "latitude": "41.56268",
+    "dst": "1",
+    "license": "AB-523",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.52701",
+    "latitude": "45.45487",
+    "dst": "1",
+    "license": "JL-491",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.23306",
+    "latitude": "31.824495",
+    "dst": "1",
+    "license": "YNK-5186",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.43424",
+    "latitude": "29.83399",
+    "dst": "1",
+    "license": "FJV-8072",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-107.90777",
+    "latitude": "35.122128",
+    "dst": "1",
+    "license": "MH-694",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-107.9263",
+    "latitude": "44.24825",
+    "dst": "1",
+    "license": "BUU-4406",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.86484",
+    "latitude": "34.95464",
+    "dst": "1",
+    "license": "VH-040",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.28831",
+    "latitude": "42.35866",
+    "dst": "1",
+    "license": "QZG-2530",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.12546",
+    "latitude": "37.742893",
+    "dst": "1",
+    "license": "ZAU-117",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.36902",
+    "latitude": "29.221682",
+    "dst": "1",
+    "license": "MV-460",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.60862",
+    "latitude": "32.80699",
+    "dst": "1",
+    "license": "MH-4851",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.96044",
+    "latitude": "37.363445",
+    "dst": "1",
+    "license": "NGB-3734",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-123.98121",
+    "latitude": "46.737457",
+    "dst": "1",
+    "license": "HGQ-2263",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.47279",
+    "latitude": "44.41484",
+    "dst": "1",
+    "license": "KIS-095",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.04393",
+    "latitude": "43.221687",
+    "dst": "1",
+    "license": "VC-995",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.11836",
+    "latitude": "39.891113",
+    "dst": "1",
+    "license": "CK-9920",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.39798",
+    "latitude": "32.22381",
+    "dst": "1",
+    "license": "BPN-7909",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.58232",
+    "latitude": "40.542778",
+    "dst": "1",
+    "license": "XGT-7302",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.15053",
+    "latitude": "28.568394",
+    "dst": "1",
+    "license": "JRL-436",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.38131",
+    "latitude": "40.5893",
+    "dst": "1",
+    "license": "XFH-5017",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.41052",
+    "latitude": "41.532585",
+    "dst": "1",
+    "license": "IH-2278",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.64014",
+    "latitude": "37.029613",
+    "dst": "1",
+    "license": "FUT-6104",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.81695",
+    "latitude": "28.564077",
+    "dst": "1",
+    "license": "BT-731",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.56225",
+    "latitude": "41.65973",
+    "dst": "1",
+    "license": "ANM-876",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.27577",
+    "latitude": "30.61428",
+    "dst": "1",
+    "license": "UQ-7468",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.29965",
+    "latitude": "37.33756",
+    "dst": "1",
+    "license": "ZJ-5149",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.45695",
+    "latitude": "38.511242",
+    "dst": "1",
+    "license": "FB-480",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.080376",
+    "latitude": "30.51589",
+    "dst": "1",
+    "license": "XP-117",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-110.35905",
+    "latitude": "38.983074",
+    "dst": "1",
+    "license": "RHX-077",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.28315",
+    "latitude": "40.79326",
+    "dst": "1",
+    "license": "DWH-426",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.43768",
+    "latitude": "36.15867",
+    "dst": "1",
+    "license": "RX-4490",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.76851",
+    "latitude": "45.04188",
+    "dst": "1",
+    "license": "OQT-9399",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.48359",
+    "latitude": "39.80105",
+    "dst": "1",
+    "license": "AZ-697",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.71636",
+    "latitude": "37.62042",
+    "dst": "1",
+    "license": "LR-6478",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.75105",
+    "latitude": "36.768856",
+    "dst": "1",
+    "license": "MF-159",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.11077",
+    "latitude": "40.10636",
+    "dst": "1",
+    "license": "WEG-8487",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.862206",
+    "latitude": "42.649307",
+    "dst": "1",
+    "license": "SJX-8196",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.9287",
+    "latitude": "40.31009",
+    "dst": "1",
+    "license": "IN-5970",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-106.03282",
+    "latitude": "35.994907",
+    "dst": "1",
+    "license": "OIX-189",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.43686",
+    "latitude": "41.111996",
+    "dst": "1",
+    "license": "UP-373",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.76965",
+    "latitude": "39.04294",
+    "dst": "1",
+    "license": "VC-165",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.80248",
+    "latitude": "33.22958",
+    "dst": "1",
+    "license": "HUA-694",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.68307",
+    "latitude": "42.55602",
+    "dst": "1",
+    "license": "PP-1612",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.95502",
+    "latitude": "37.103672",
+    "dst": "1",
+    "license": "AHB-5116",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.44118",
+    "latitude": "37.490364",
+    "dst": "1",
+    "license": "ZSH-5490",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.29299",
+    "latitude": "41.596767",
+    "dst": "0",
+    "license": "LUL-301",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.64615",
+    "latitude": "36.602467",
+    "dst": "1",
+    "license": "COL-786",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.74846",
+    "latitude": "34.90068",
+    "dst": "1",
+    "license": "NSZ-564",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.24432",
+    "latitude": "48.371025",
+    "dst": "1",
+    "license": "VEO-583",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.17941",
+    "latitude": "25.95872",
+    "dst": "1",
+    "license": "NX-448",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.48266",
+    "latitude": "40.095146",
+    "dst": "1",
+    "license": "UKA-306",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-117.28654",
+    "latitude": "34.242565",
+    "dst": "1",
+    "license": "GN-722",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.74158",
+    "latitude": "39.020466",
+    "dst": "1",
+    "license": "YJ-700",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.09024",
+    "latitude": "33.449993",
+    "dst": "0",
+    "license": "MF-3549",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.81662",
+    "latitude": "39.056522",
+    "dst": "1",
+    "license": "DW-7650",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.74512",
+    "latitude": "35.148315",
+    "dst": "1",
+    "license": "BW-968",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.48827",
+    "latitude": "41.94487",
+    "dst": "1",
+    "license": "FVP-1908",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-114.97206",
+    "latitude": "35.927902",
+    "dst": "1",
+    "license": "LY-0128",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-102.61855",
+    "latitude": "38.08759",
+    "dst": "1",
+    "license": "KZ-563",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.57486",
+    "latitude": "41.306316",
+    "dst": "1",
+    "license": "CM-013",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.01465",
+    "latitude": "38.89331",
+    "dst": "1",
+    "license": "DA-838",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.86564",
+    "latitude": "38.54465",
+    "dst": "1",
+    "license": "IB-3534",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.01465",
+    "latitude": "38.89331",
+    "dst": "1",
+    "license": "DHH-9700",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.15367",
+    "latitude": "40.003407",
+    "dst": "1",
+    "license": "WFC-353",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.67795",
+    "latitude": "32.63211",
+    "dst": "1",
+    "license": "WQX-137",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.36161",
+    "latitude": "29.51613",
+    "dst": "1",
+    "license": "PYJ-8910",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.00626",
+    "latitude": "38.40198",
+    "dst": "1",
+    "license": "JMK-834",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.62049",
+    "latitude": "39.284706",
+    "dst": "1",
+    "license": "DHI-6688",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.23273",
+    "latitude": "43.619785",
+    "dst": "1",
+    "license": "FUZ-682",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.40754",
+    "latitude": "35.55141",
+    "dst": "1",
+    "license": "GWV-469",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.60271",
+    "latitude": "36.530266",
+    "dst": "1",
+    "license": "NAI-6946",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.58203",
+    "latitude": "41.96329",
+    "dst": "1",
+    "license": "MC-6384",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-9",
+    "longitude": "-158.74638",
+    "latitude": "56.252155",
+    "dst": "1",
+    "license": "MGM-056",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.6735",
+    "latitude": "37.520836",
+    "dst": "1",
+    "license": "BZ-895",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.85739",
+    "latitude": "40.88286",
+    "dst": "1",
+    "license": "RYJ-5393",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.92772",
+    "latitude": "43.460075",
+    "dst": "1",
+    "license": "UU-4475",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.67027",
+    "latitude": "41.217632",
+    "dst": "1",
+    "license": "OE-1599",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.480415",
+    "latitude": "37.69359",
+    "dst": "1",
+    "license": "IP-842",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.28315",
+    "latitude": "40.541588",
+    "dst": "1",
+    "license": "QZ-5137",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.06113",
+    "latitude": "39.317303",
+    "dst": "1",
+    "license": "LI-536",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.87634",
+    "latitude": "42.651775",
+    "dst": "1",
+    "license": "EWJ-1184",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.90573",
+    "latitude": "41.607887",
+    "dst": "1",
+    "license": "WZ-9802",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.59251",
+    "latitude": "43.03154",
+    "dst": "1",
+    "license": "VKL-7335",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.29866",
+    "latitude": "33.786594",
+    "dst": "1",
+    "license": "JNL-0217",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-9",
+    "longitude": "-166.51022",
+    "latitude": "65.34274",
+    "dst": "1",
+    "license": "BPS-5854",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.97785",
+    "latitude": "40.760914",
+    "dst": "1",
+    "license": "JUM-820",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.7562",
+    "latitude": "34.223732",
+    "dst": "1",
+    "license": "IE-872",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.8506",
+    "latitude": "36.947113",
+    "dst": "1",
+    "license": "EFS-7609",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.52581",
+    "latitude": "40.924297",
+    "dst": "1",
+    "license": "AB-3913",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-123.87189",
+    "latitude": "40.691578",
+    "dst": "1",
+    "license": "FAR-772",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.41401",
+    "latitude": "40.580704",
+    "dst": "1",
+    "license": "FX-250",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.26288",
+    "latitude": "43.1924",
+    "dst": "1",
+    "license": "PR-4255",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.04562",
+    "latitude": "42.33499",
+    "dst": "1",
+    "license": "VM-1364",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-85.992",
+    "latitude": "31.780848",
+    "dst": "1",
+    "license": "FKS-0265",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.3027",
+    "latitude": "47.491325",
+    "dst": "1",
+    "license": "VW-4331",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.65106",
+    "latitude": "44.033867",
+    "dst": "1",
+    "license": "JDQ-5268",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.49219",
+    "latitude": "29.528515",
+    "dst": "1",
+    "license": "MVQ-992",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.74691",
+    "latitude": "41.046448",
+    "dst": "1",
+    "license": "BA-447",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.02482",
+    "latitude": "40.434437",
+    "dst": "1",
+    "license": "LJP-9156",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.93496",
+    "latitude": "40.848763",
+    "dst": "1",
+    "license": "YLC-6862",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.78359",
+    "latitude": "41.200336",
+    "dst": "1",
+    "license": "SOL-305",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.81535",
+    "latitude": "41.32211",
+    "dst": "1",
+    "license": "GYE-1999",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.68573",
+    "latitude": "45.52054",
+    "dst": "1",
+    "license": "XAW-3989",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.33186",
+    "latitude": "18.419666",
+    "dst": "0",
+    "license": "GH-795",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.43802",
+    "latitude": "41.839294",
+    "dst": "1",
+    "license": "MFG-225",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.27001",
+    "latitude": "34.969887",
+    "dst": "1",
+    "license": "ZI-875",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.20847",
+    "latitude": "41.010433",
+    "dst": "1",
+    "license": "JX-4546",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.55466",
+    "latitude": "38.296818",
+    "dst": "1",
+    "license": "QA-164",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.31402",
+    "latitude": "39.25183",
+    "dst": "1",
+    "license": "ASR-1040",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-102.54473",
+    "latitude": "36.74065",
+    "dst": "1",
+    "license": "EC-1881",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.14403",
+    "latitude": "32.634205",
+    "dst": "1",
+    "license": "DEV-425",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-124.08412",
+    "latitude": "40.546204",
+    "dst": "1",
+    "license": "MA-625",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.79097",
+    "latitude": "33.765137",
+    "dst": "1",
+    "license": "LO-855",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.37517",
+    "latitude": "32.36156",
+    "dst": "1",
+    "license": "WPP-4768",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.73707",
+    "latitude": "46.221043",
+    "dst": "1",
+    "license": "NH-299",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.69227",
+    "latitude": "44.44424",
+    "dst": "1",
+    "license": "GVO-588",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.03602",
+    "latitude": "37.35009",
+    "dst": "1",
+    "license": "UZJ-745",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.572174",
+    "latitude": "41.672688",
+    "dst": "1",
+    "license": "GS-7778",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.01157",
+    "latitude": "41.231407",
+    "dst": "1",
+    "license": "HR-5865",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.40835",
+    "latitude": "39.73875",
+    "dst": "1",
+    "license": "VNB-9963",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-106.672874",
+    "latitude": "35.04434",
+    "dst": "1",
+    "license": "QLE-757",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.0719",
+    "latitude": "28.421814",
+    "dst": "1",
+    "license": "PKY-405",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.16806",
+    "latitude": "38.39367",
+    "dst": "1",
+    "license": "AL-1875",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.3371",
+    "latitude": "42.425682",
+    "dst": "1",
+    "license": "YJ-5794",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.09595",
+    "latitude": "30.26461",
+    "dst": "1",
+    "license": "EGD-283",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.5205",
+    "latitude": "38.944664",
+    "dst": "1",
+    "license": "KP-5385",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.89818",
+    "latitude": "32.327217",
+    "dst": "1",
+    "license": "HG-8829",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.08438",
+    "latitude": "42.84685",
+    "dst": "1",
+    "license": "PPN-6714",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.43949",
+    "latitude": "32.455406",
+    "dst": "1",
+    "license": "TJH-9148",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.74433",
+    "latitude": "40.752777",
+    "dst": "0",
+    "license": "SH-4181",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.84575",
+    "latitude": "41.475296",
+    "dst": "1",
+    "license": "NAM-3132",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.91125",
+    "latitude": "36.87229",
+    "dst": "1",
+    "license": "IR-250",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.62049",
+    "latitude": "39.284706",
+    "dst": "1",
+    "license": "IXQ-5622",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-87.08288",
+    "latitude": "38.869877",
+    "dst": "0",
+    "license": "KKE-0493",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.41801",
+    "latitude": "42.10809",
+    "dst": "1",
+    "license": "AJJ-100",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.99866",
+    "latitude": "42.467087",
+    "dst": "1",
+    "license": "FL-1562",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.211334",
+    "latitude": "39.870636",
+    "dst": "1",
+    "license": "FBK-289",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.10964",
+    "latitude": "37.199768",
+    "dst": "1",
+    "license": "AON-7551",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.87594",
+    "latitude": "41.79911",
+    "dst": "1",
+    "license": "NK-3121",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.93428",
+    "latitude": "40.105724",
+    "dst": "1",
+    "license": "ZQ-406",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.61916",
+    "latitude": "18.019331",
+    "dst": "0",
+    "license": "KE-0283",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.24469",
+    "latitude": "38.558838",
+    "dst": "1",
+    "license": "DM-663",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.61952",
+    "latitude": "35.120934",
+    "dst": "1",
+    "license": "JBG-898",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.30778",
+    "latitude": "34.66829",
+    "dst": "0",
+    "license": "MW-9882",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.33252",
+    "latitude": "30.587305",
+    "dst": "1",
+    "license": "TR-5322",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.95786",
+    "latitude": "37.274174",
+    "dst": "1",
+    "license": "ME-9085",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.38515",
+    "latitude": "41.9409",
+    "dst": "1",
+    "license": "KC-916",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.27206",
+    "latitude": "38.365097",
+    "dst": "1",
+    "license": "MA-990",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.56",
+    "latitude": "39.123806",
+    "dst": "1",
+    "license": "LMU-618",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.40835",
+    "latitude": "39.73875",
+    "dst": "1",
+    "license": "BZ-2288",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.7476",
+    "latitude": "36.39212",
+    "dst": "1",
+    "license": "YR-9981",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-115.27343",
+    "latitude": "36.11306",
+    "dst": "1",
+    "license": "CL-461",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.78107",
+    "latitude": "39.02163",
+    "dst": "1",
+    "license": "EYH-2685",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.43424",
+    "latitude": "29.83399",
+    "dst": "1",
+    "license": "UTM-6472",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.5548",
+    "latitude": "36.085342",
+    "dst": "1",
+    "license": "DFQ-055",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.73372",
+    "latitude": "42.899235",
+    "dst": "1",
+    "license": "PPO-847",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.80047",
+    "latitude": "42.968056",
+    "dst": "1",
+    "license": "BM-159",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.12417",
+    "latitude": "39.045017",
+    "dst": "1",
+    "license": "SSL-4179",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.66221",
+    "latitude": "42.78589",
+    "dst": "1",
+    "license": "DN-863",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.07212",
+    "latitude": "38.038837",
+    "dst": "1",
+    "license": "ON-2806",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.776405",
+    "latitude": "39.16783",
+    "dst": "1",
+    "license": "SX-062",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.60495",
+    "latitude": "41.15689",
+    "dst": "0",
+    "license": "DR-378",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.38379",
+    "latitude": "36.315796",
+    "dst": "1",
+    "license": "CSA-8749",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.44826",
+    "latitude": "26.145723",
+    "dst": "1",
+    "license": "AJ-445",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.718834",
+    "latitude": "41.791775",
+    "dst": "1",
+    "license": "WA-829",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.21431",
+    "latitude": "31.588327",
+    "dst": "1",
+    "license": "ST-9703",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.60411",
+    "latitude": "36.44051",
+    "dst": "1",
+    "license": "WO-8754",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.97189",
+    "latitude": "39.03818",
+    "dst": "1",
+    "license": "JHE-4709",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.58714",
+    "latitude": "41.46675",
+    "dst": "1",
+    "license": "GI-8735",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-68.44607",
+    "latitude": "44.16159",
+    "dst": "1",
+    "license": "TX-232",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.39383",
+    "latitude": "34.751923",
+    "dst": "1",
+    "license": "JWO-7095",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-123.3999",
+    "latitude": "38.654705",
+    "dst": "1",
+    "license": "YTF-9807",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.30878",
+    "latitude": "41.81152",
+    "dst": "1",
+    "license": "SU-486",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.94599",
+    "latitude": "34.736908",
+    "dst": "1",
+    "license": "LY-2116",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.39015",
+    "latitude": "43.91093",
+    "dst": "1",
+    "license": "NWC-0752",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.47918",
+    "latitude": "35.992386",
+    "dst": "1",
+    "license": "GYC-788",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.685104",
+    "latitude": "40.431202",
+    "dst": "1",
+    "license": "EOY-182",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.1257",
+    "latitude": "38.523735",
+    "dst": "1",
+    "license": "ZWJ-6648",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.89524",
+    "latitude": "33.506454",
+    "dst": "1",
+    "license": "GY-1787",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.83068",
+    "latitude": "43.32684",
+    "dst": "1",
+    "license": "TB-4329",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.7258",
+    "latitude": "39.694916",
+    "dst": "1",
+    "license": "II-9344",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.01465",
+    "latitude": "38.89331",
+    "dst": "1",
+    "license": "MR-334",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.78645",
+    "latitude": "45.27847",
+    "dst": "1",
+    "license": "KJ-938",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.06801",
+    "latitude": "44.598118",
+    "dst": "1",
+    "license": "FW-585",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.02753",
+    "latitude": "32.47368",
+    "dst": "1",
+    "license": "NE-6377",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.33358",
+    "latitude": "32.53888",
+    "dst": "1",
+    "license": "EW-186",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.30503",
+    "latitude": "31.49621",
+    "dst": "1",
+    "license": "JIM-496",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.24861",
+    "latitude": "39.35409",
+    "dst": "1",
+    "license": "CV-533",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-10",
+    "longitude": "-168.02182",
+    "latitude": "24.859833",
+    "dst": "0",
+    "license": "WTD-174",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.78249",
+    "latitude": "41.1904",
+    "dst": "1",
+    "license": "EFH-1481",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.8052",
+    "latitude": "39.998074",
+    "dst": "1",
+    "license": "QA-379",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.70988",
+    "latitude": "40.89222",
+    "dst": "1",
+    "license": "EJ-658",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.83139",
+    "latitude": "42.866707",
+    "dst": "1",
+    "license": "GBW-248",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-109.91979",
+    "latitude": "31.385181",
+    "dst": "0",
+    "license": "LT-213",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-102.33025",
+    "latitude": "37.962677",
+    "dst": "1",
+    "license": "CI-967",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.91798",
+    "latitude": "38.758698",
+    "dst": "1",
+    "license": "KOA-0504",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.09291",
+    "latitude": "35.629032",
+    "dst": "1",
+    "license": "NU-621",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.29276",
+    "latitude": "35.039066",
+    "dst": "1",
+    "license": "GWP-999",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.38429",
+    "latitude": "36.920803",
+    "dst": "1",
+    "license": "YWX-802",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.12375",
+    "latitude": "34.500298",
+    "dst": "1",
+    "license": "RK-8931",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.41924",
+    "latitude": "38.421444",
+    "dst": "1",
+    "license": "SZZ-327",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.71981",
+    "latitude": "40.294346",
+    "dst": "1",
+    "license": "FUZ-7471",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.94612",
+    "latitude": "40.463463",
+    "dst": "1",
+    "license": "CK-485",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.94761",
+    "latitude": "34.977226",
+    "dst": "1",
+    "license": "THV-0387",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.2083",
+    "latitude": "35.94874",
+    "dst": "1",
+    "license": "UH-5339",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.79794",
+    "latitude": "42.834286",
+    "dst": "1",
+    "license": "EYL-6819",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.13624",
+    "latitude": "34.907333",
+    "dst": "1",
+    "license": "XRN-025",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-115.05438",
+    "latitude": "36.01758",
+    "dst": "1",
+    "license": "KSS-5082",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.03436",
+    "latitude": "40.74897",
+    "dst": "1",
+    "license": "PZP-6858",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.72363",
+    "latitude": "39.580196",
+    "dst": "1",
+    "license": "UXQ-6800",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.18203",
+    "latitude": "36.19865",
+    "dst": "1",
+    "license": "CGQ-537",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.23597",
+    "latitude": "32.023827",
+    "dst": "1",
+    "license": "DV-3783",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.92398",
+    "latitude": "36.028687",
+    "dst": "1",
+    "license": "JG-264",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.21141",
+    "latitude": "43.797115",
+    "dst": "1",
+    "license": "ZN-177",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.96577",
+    "latitude": "36.909077",
+    "dst": "1",
+    "license": "QSP-9599",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.06222",
+    "latitude": "40.946102",
+    "dst": "1",
+    "license": "ZM-940",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.28732",
+    "latitude": "44.29478",
+    "dst": "1",
+    "license": "PSE-4704",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.8373",
+    "latitude": "39.53636",
+    "dst": "1",
+    "license": "WD-7832",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.61348",
+    "latitude": "18.40415",
+    "dst": "0",
+    "license": "GJ-8914",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.56087",
+    "latitude": "33.817738",
+    "dst": "1",
+    "license": "KQM-094",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.985",
+    "latitude": "40.88051",
+    "dst": "1",
+    "license": "XKY-737",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.37838",
+    "latitude": "47.68592",
+    "dst": "1",
+    "license": "QK-320",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.2128",
+    "latitude": "41.982994",
+    "dst": "1",
+    "license": "XJ-1342",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.06053",
+    "latitude": "18.410461",
+    "dst": "0",
+    "license": "YYT-623",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.59465",
+    "latitude": "39.793095",
+    "dst": "1",
+    "license": "ATM-872",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.12294",
+    "latitude": "42.398113",
+    "dst": "1",
+    "license": "ZM-450",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.82364",
+    "latitude": "40.969814",
+    "dst": "1",
+    "license": "UNI-868",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.99526",
+    "latitude": "36.809933",
+    "dst": "1",
+    "license": "JCA-5334",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.7184",
+    "latitude": "40.74418",
+    "dst": "1",
+    "license": "FOJ-016",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.39638",
+    "latitude": "38.50978",
+    "dst": "1",
+    "license": "GB-6140",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.41809",
+    "latitude": "40.37182",
+    "dst": "1",
+    "license": "WGU-0982",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.572174",
+    "latitude": "41.672688",
+    "dst": "1",
+    "license": "TC-454",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.19588",
+    "latitude": "36.42918",
+    "dst": "1",
+    "license": "MX-1996",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.62171",
+    "latitude": "35.069016",
+    "dst": "1",
+    "license": "JXS-3366",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.2211",
+    "latitude": "34.869457",
+    "dst": "1",
+    "license": "IK-600",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.44607",
+    "latitude": "40.77759",
+    "dst": "1",
+    "license": "DDD-2727",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.0417",
+    "latitude": "36.293095",
+    "dst": "1",
+    "license": "DFT-1761",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.33785",
+    "latitude": "39.380096",
+    "dst": "1",
+    "license": "THA-305",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.64341",
+    "latitude": "37.611683",
+    "dst": "1",
+    "license": "YYL-2128",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.81453",
+    "latitude": "41.913692",
+    "dst": "1",
+    "license": "WY-6553",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.68414",
+    "latitude": "42.081364",
+    "dst": "1",
+    "license": "BTB-3537",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.95806",
+    "latitude": "44.28491",
+    "dst": "1",
+    "license": "US-0375",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.29024",
+    "latitude": "36.094624",
+    "dst": "1",
+    "license": "IBI-904",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.61248",
+    "latitude": "41.336945",
+    "dst": "1",
+    "license": "MLG-4523",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.90158",
+    "latitude": "43.566326",
+    "dst": "1",
+    "license": "GR-346",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.83639",
+    "latitude": "42.181583",
+    "dst": "1",
+    "license": "GUJ-106",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.04615",
+    "latitude": "39.18871",
+    "dst": "1",
+    "license": "GZF-287",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.16033",
+    "latitude": "18.412462",
+    "dst": "0",
+    "license": "OYM-9419",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.73441",
+    "latitude": "38.073296",
+    "dst": "1",
+    "license": "RI-154",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.6919",
+    "latitude": "32.138935",
+    "dst": "1",
+    "license": "WQY-7744",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.18345",
+    "latitude": "36.842976",
+    "dst": "1",
+    "license": "AFW-3433",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-110.34199",
+    "latitude": "39.569595",
+    "dst": "1",
+    "license": "LPV-805",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.933815",
+    "latitude": "35.728283",
+    "dst": "1",
+    "license": "UBS-4401",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.52901",
+    "latitude": "40.781506",
+    "dst": "1",
+    "license": "CZB-7735",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.18717",
+    "latitude": "33.27654",
+    "dst": "0",
+    "license": "TN-2152",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.2369",
+    "latitude": "25.812626",
+    "dst": "1",
+    "license": "BGP-2192",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.75199",
+    "latitude": "41.44996",
+    "dst": "1",
+    "license": "FLV-1947",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.38271",
+    "latitude": "42.484413",
+    "dst": "1",
+    "license": "IW-302",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.840904",
+    "latitude": "40.851547",
+    "dst": "1",
+    "license": "TF-6560",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.69865",
+    "latitude": "39.145756",
+    "dst": "1",
+    "license": "EVL-981",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.75722",
+    "latitude": "37.187347",
+    "dst": "1",
+    "license": "UTC-902",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.99484",
+    "latitude": "39.98837",
+    "dst": "1",
+    "license": "JL-6232",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.72628",
+    "latitude": "40.619175",
+    "dst": "1",
+    "license": "DZ-223",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.12184",
+    "latitude": "27.368433",
+    "dst": "1",
+    "license": "YRG-825",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.38697",
+    "latitude": "34.894962",
+    "dst": "1",
+    "license": "AY-3068",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.28299",
+    "latitude": "33.426422",
+    "dst": "0",
+    "license": "LP-929",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.59359",
+    "latitude": "39.76574",
+    "dst": "1",
+    "license": "SIJ-7528",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.23622",
+    "latitude": "38.31255",
+    "dst": "1",
+    "license": "DL-5645",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.82407",
+    "latitude": "39.97325",
+    "dst": "1",
+    "license": "ZFA-322",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.94134",
+    "latitude": "34.235218",
+    "dst": "1",
+    "license": "QY-6285",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.95449",
+    "latitude": "37.21583",
+    "dst": "1",
+    "license": "VLC-019",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-101.077415",
+    "latitude": "45.426655",
+    "dst": "1",
+    "license": "PTL-9337",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-85.56392",
+    "latitude": "30.188585",
+    "dst": "1",
+    "license": "XJL-876",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.93107",
+    "latitude": "43.279404",
+    "dst": "1",
+    "license": "TNU-6982",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.61031",
+    "latitude": "38.647457",
+    "dst": "1",
+    "license": "WS-129",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.31058",
+    "latitude": "18.204294",
+    "dst": "0",
+    "license": "PC-5123",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.42096",
+    "latitude": "35.859566",
+    "dst": "1",
+    "license": "PD-461",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.56461",
+    "latitude": "44.506023",
+    "dst": "1",
+    "license": "AP-3136",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.50819",
+    "latitude": "37.53984",
+    "dst": "1",
+    "license": "NEF-1549",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.10474",
+    "latitude": "35.15251",
+    "dst": "1",
+    "license": "SPQ-644",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.24197",
+    "latitude": "38.45204",
+    "dst": "1",
+    "license": "XJ-396",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.631325",
+    "latitude": "41.39066",
+    "dst": "1",
+    "license": "ZB-7244",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.5536",
+    "latitude": "43.485714",
+    "dst": "1",
+    "license": "ST-497",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.18812",
+    "latitude": "39.514023",
+    "dst": "0",
+    "license": "BL-7708",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.91343",
+    "latitude": "32.634834",
+    "dst": "1",
+    "license": "ROB-9309",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.91878",
+    "latitude": "38.78615",
+    "dst": "1",
+    "license": "FA-2859",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.85319",
+    "latitude": "40.515644",
+    "dst": "1",
+    "license": "YR-2104",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-117.12056",
+    "latitude": "33.52775",
+    "dst": "1",
+    "license": "KCV-499",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.47969",
+    "latitude": "42.549484",
+    "dst": "1",
+    "license": "WA-733",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.79469",
+    "latitude": "32.278423",
+    "dst": "1",
+    "license": "HO-6773",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-123.20187",
+    "latitude": "41.228397",
+    "dst": "1",
+    "license": "LUB-081",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.33748",
+    "latitude": "35.43506",
+    "dst": "1",
+    "license": "FND-2331",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.45186",
+    "latitude": "33.23738",
+    "dst": "1",
+    "license": "UK-5749",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.85773",
+    "latitude": "32.84885",
+    "dst": "1",
+    "license": "DC-2019",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.5087",
+    "latitude": "28.859285",
+    "dst": "1",
+    "license": "LNG-0350",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.52667",
+    "latitude": "30.341402",
+    "dst": "1",
+    "license": "BS-825",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.49975",
+    "latitude": "37.514423",
+    "dst": "1",
+    "license": "DXH-905",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.3902",
+    "latitude": "38.261864",
+    "dst": "1",
+    "license": "PN-856",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.1802",
+    "latitude": "39.867157",
+    "dst": "1",
+    "license": "YXH-275",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.76777",
+    "latitude": "36.16718",
+    "dst": "1",
+    "license": "AXA-441",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.63708",
+    "latitude": "40.922325",
+    "dst": "1",
+    "license": "QGX-5317",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.39332",
+    "latitude": "38.387447",
+    "dst": "1",
+    "license": "UEO-1134",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.6848",
+    "latitude": "38.057743",
+    "dst": "1",
+    "license": "ZI-794",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.26082",
+    "latitude": "28.566338",
+    "dst": "1",
+    "license": "FX-246",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-117.79563",
+    "latitude": "48.03085",
+    "dst": "1",
+    "license": "TFA-8635",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.18642",
+    "latitude": "42.7707",
+    "dst": "1",
+    "license": "NXS-860",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.84983",
+    "latitude": "43.125652",
+    "dst": "1",
+    "license": "YSZ-8968",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.86059",
+    "latitude": "41.2344",
+    "dst": "1",
+    "license": "ALO-573",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.39906",
+    "latitude": "37.912975",
+    "dst": "1",
+    "license": "EPO-6181",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.10446",
+    "latitude": "46.62055",
+    "dst": "1",
+    "license": "OZ-7826",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.78563",
+    "latitude": "40.20859",
+    "dst": "1",
+    "license": "YVY-513",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-116.62459",
+    "latitude": "32.890385",
+    "dst": "1",
+    "license": "BE-5893",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.89546",
+    "latitude": "32.67831",
+    "dst": "1",
+    "license": "IY-6101",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.90416",
+    "latitude": "45.946316",
+    "dst": "1",
+    "license": "YRG-2134",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.58913",
+    "latitude": "34.45573",
+    "dst": "1",
+    "license": "KTB-020",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.50722",
+    "latitude": "42.00173",
+    "dst": "1",
+    "license": "LL-937",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.33482",
+    "latitude": "37.381145",
+    "dst": "1",
+    "license": "BLV-999",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.52617",
+    "latitude": "30.847792",
+    "dst": "1",
+    "license": "YOA-8584",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.797",
+    "latitude": "40.720867",
+    "dst": "1",
+    "license": "DXB-376",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.91061",
+    "latitude": "33.25868",
+    "dst": "1",
+    "license": "HD-877",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.55056",
+    "latitude": "35.751015",
+    "dst": "1",
+    "license": "LP-956",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.48292",
+    "latitude": "45.65571",
+    "dst": "1",
+    "license": "XM-012",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-116.84605",
+    "latitude": "33.01693",
+    "dst": "1",
+    "license": "HH-5305",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.95414",
+    "latitude": "44.673588",
+    "dst": "1",
+    "license": "ARR-8938",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.600105",
+    "latitude": "29.50199",
+    "dst": "1",
+    "license": "QP-677",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.41501",
+    "latitude": "40.540398",
+    "dst": "1",
+    "license": "YM-7203",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.07071",
+    "latitude": "41.09376",
+    "dst": "0",
+    "license": "JW-4454",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.6808",
+    "latitude": "30.993313",
+    "dst": "1",
+    "license": "AUE-2368",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.10964",
+    "latitude": "32.12563",
+    "dst": "1",
+    "license": "RB-3912",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.45649",
+    "latitude": "43.09397",
+    "dst": "1",
+    "license": "XA-516",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.48553",
+    "latitude": "37.2701",
+    "dst": "1",
+    "license": "ZXA-108",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.23562",
+    "latitude": "42.79471",
+    "dst": "1",
+    "license": "UYE-683",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.78433",
+    "latitude": "27.299072",
+    "dst": "1",
+    "license": "ORT-4461",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.41533",
+    "latitude": "31.816868",
+    "dst": "1",
+    "license": "PBK-407",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.49491",
+    "latitude": "31.349348",
+    "dst": "1",
+    "license": "XD-325",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.10849",
+    "latitude": "42.375786",
+    "dst": "1",
+    "license": "PMD-449",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.88512",
+    "latitude": "40.464092",
+    "dst": "1",
+    "license": "FN-090",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.40878",
+    "latitude": "38.746506",
+    "dst": "1",
+    "license": "IT-5446",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.46452",
+    "latitude": "43.6122",
+    "dst": "1",
+    "license": "XU-7267",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.539024",
+    "latitude": "36.63198",
+    "dst": "1",
+    "license": "OS-533",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.59381",
+    "latitude": "39.26537",
+    "dst": "1",
+    "license": "SL-2467",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.75849",
+    "latitude": "41.617233",
+    "dst": "1",
+    "license": "YKD-3900",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.02508",
+    "latitude": "42.07506",
+    "dst": "1",
+    "license": "AC-6489",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.91317",
+    "latitude": "41.351307",
+    "dst": "1",
+    "license": "AIL-3373",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.95858",
+    "latitude": "42.960175",
+    "dst": "1",
+    "license": "FW-2153",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.60602",
+    "latitude": "39.74946",
+    "dst": "1",
+    "license": "SS-890",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.15143",
+    "latitude": "38.106003",
+    "dst": "1",
+    "license": "QG-8129",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.24791",
+    "latitude": "36.20351",
+    "dst": "1",
+    "license": "VDE-514",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.72021",
+    "latitude": "41.785152",
+    "dst": "1",
+    "license": "OWV-5539",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.79382",
+    "latitude": "39.164967",
+    "dst": "1",
+    "license": "GS-805",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.20383",
+    "latitude": "37.894073",
+    "dst": "1",
+    "license": "NP-4865",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.51487",
+    "latitude": "47.158016",
+    "dst": "1",
+    "license": "WM-4920",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.18938",
+    "latitude": "47.671143",
+    "dst": "1",
+    "license": "EII-401",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.47115",
+    "latitude": "40.693375",
+    "dst": "1",
+    "license": "CN-811",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.73575",
+    "latitude": "41.3977",
+    "dst": "1",
+    "license": "XM-7363",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.4044",
+    "latitude": "31.470602",
+    "dst": "1",
+    "license": "QUN-8604",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-104.20951",
+    "latitude": "48.887447",
+    "dst": "1",
+    "license": "PGV-292",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.088715",
+    "latitude": "41.83968",
+    "dst": "1",
+    "license": "LOV-377",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.80406",
+    "latitude": "30.188885",
+    "dst": "1",
+    "license": "FI-507",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.30325",
+    "latitude": "40.517857",
+    "dst": "1",
+    "license": "MJM-130",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.2211",
+    "latitude": "39.800957",
+    "dst": "1",
+    "license": "UJ-710",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.69495",
+    "latitude": "38.066975",
+    "dst": "1",
+    "license": "VY-193",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.6911",
+    "latitude": "36.990215",
+    "dst": "1",
+    "license": "HAY-524",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.81152",
+    "latitude": "40.29735",
+    "dst": "1",
+    "license": "QI-020",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.04226",
+    "latitude": "38.01492",
+    "dst": "1",
+    "license": "CN-158",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-114.42965",
+    "latitude": "48.22372",
+    "dst": "1",
+    "license": "YT-075",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.58834",
+    "latitude": "47.373207",
+    "dst": "1",
+    "license": "PMC-6909",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.27596",
+    "latitude": "35.882942",
+    "dst": "1",
+    "license": "FK-2519",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.150826",
+    "latitude": "42.239933",
+    "dst": "1",
+    "license": "CQ-072",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.42814",
+    "latitude": "33.877678",
+    "dst": "1",
+    "license": "QU-9629",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.65736",
+    "latitude": "43.32705",
+    "dst": "1",
+    "license": "TWX-5778",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.67244",
+    "latitude": "44.904053",
+    "dst": "1",
+    "license": "LKQ-2337",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.35677",
+    "latitude": "46.12624",
+    "dst": "1",
+    "license": "KSN-3883",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.34542",
+    "latitude": "39.87461",
+    "dst": "1",
+    "license": "OTZ-2638",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.40807",
+    "latitude": "34.783504",
+    "dst": "1",
+    "license": "KZ-5443",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.40292",
+    "latitude": "42.524143",
+    "dst": "1",
+    "license": "IE-8235",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.89074",
+    "latitude": "32.30213",
+    "dst": "1",
+    "license": "VI-949",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.47188",
+    "latitude": "45.015915",
+    "dst": "1",
+    "license": "SFV-2518",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.19809",
+    "latitude": "36.285007",
+    "dst": "1",
+    "license": "ZA-8190",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-114.07639",
+    "latitude": "46.92275",
+    "dst": "1",
+    "license": "BF-721",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.61833",
+    "latitude": "45.442635",
+    "dst": "1",
+    "license": "REE-245",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.34529",
+    "latitude": "33.925083",
+    "dst": "1",
+    "license": "VR-499",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-69.30376",
+    "latitude": "44.785927",
+    "dst": "1",
+    "license": "ZNJ-4935",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.09459",
+    "latitude": "36.079727",
+    "dst": "1",
+    "license": "SP-0815",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.17863",
+    "latitude": "41.45974",
+    "dst": "1",
+    "license": "DF-2578",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.68988",
+    "latitude": "33.081287",
+    "dst": "1",
+    "license": "TKM-2896",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.29866",
+    "latitude": "33.786594",
+    "dst": "1",
+    "license": "HAD-9215",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.99433",
+    "latitude": "43.556576",
+    "dst": "1",
+    "license": "YBV-241",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.47405",
+    "latitude": "33.84437",
+    "dst": "1",
+    "license": "NXF-163",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.19491",
+    "latitude": "38.36528",
+    "dst": "1",
+    "license": "KS-0473",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.09934",
+    "latitude": "41.64273",
+    "dst": "1",
+    "license": "LE-025",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.92544",
+    "latitude": "41.40859",
+    "dst": "1",
+    "license": "DA-5181",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.12945",
+    "latitude": "40.64003",
+    "dst": "1",
+    "license": "RGQ-585",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.05859",
+    "latitude": "42.19996",
+    "dst": "1",
+    "license": "WD-198",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.71468",
+    "latitude": "37.972885",
+    "dst": "1",
+    "license": "HM-7745",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-65.7885",
+    "latitude": "18.13803",
+    "dst": "0",
+    "license": "DST-1754",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.6407",
+    "latitude": "29.912584",
+    "dst": "1",
+    "license": "AUW-8624",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.49124",
+    "latitude": "38.548695",
+    "dst": "1",
+    "license": "MHX-190",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.5809",
+    "latitude": "36.959633",
+    "dst": "1",
+    "license": "WKR-0179",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.01013",
+    "latitude": "39.368237",
+    "dst": "1",
+    "license": "HQS-014",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.45309",
+    "latitude": "39.80993",
+    "dst": "1",
+    "license": "VCN-2749",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-122.01437",
+    "latitude": "37.984272",
+    "dst": "1",
+    "license": "FQ-111",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.8988",
+    "latitude": "33.987087",
+    "dst": "1",
+    "license": "FRT-6360",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.64535",
+    "latitude": "33.35035",
+    "dst": "0",
+    "license": "PUL-137",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.8881",
+    "latitude": "45.200874",
+    "dst": "1",
+    "license": "OY-2428",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.37871",
+    "latitude": "33.49348",
+    "dst": "1",
+    "license": "FH-6296",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-102.08301",
+    "latitude": "48.719925",
+    "dst": "1",
+    "license": "VN-2418",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.460815",
+    "latitude": "38.417274",
+    "dst": "1",
+    "license": "BG-0398",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.22069",
+    "latitude": "43.878113",
+    "dst": "1",
+    "license": "PEQ-9718",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.2916",
+    "latitude": "43.93413",
+    "dst": "1",
+    "license": "MY-2574",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.82637",
+    "latitude": "36.355255",
+    "dst": "1",
+    "license": "HK-437",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.17385",
+    "latitude": "33.972813",
+    "dst": "1",
+    "license": "EJF-9210",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.62098",
+    "latitude": "35.10521",
+    "dst": "1",
+    "license": "XL-0874",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-99.72471",
+    "latitude": "39.891365",
+    "dst": "1",
+    "license": "LHP-0682",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.07446",
+    "latitude": "41.34269",
+    "dst": "1",
+    "license": "SKK-4720",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-9",
+    "longitude": "-147.6265",
+    "latitude": "64.82716",
+    "dst": "1",
+    "license": "XD-6482",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.65563",
+    "latitude": "40.8442",
+    "dst": "1",
+    "license": "XF-794",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.32704",
+    "latitude": "30.57258",
+    "dst": "1",
+    "license": "LQ-9089",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.42159",
+    "latitude": "28.301788",
+    "dst": "1",
+    "license": "MG-4668",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.249344",
+    "latitude": "38.530922",
+    "dst": "1",
+    "license": "UYR-0071",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.65943",
+    "latitude": "42.845036",
+    "dst": "1",
+    "license": "RC-9878",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-103.01952",
+    "latitude": "33.616833",
+    "dst": "1",
+    "license": "VFB-116",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-108.92886",
+    "latitude": "42.971973",
+    "dst": "1",
+    "license": "CJ-8830",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.29172",
+    "latitude": "44.76368",
+    "dst": "1",
+    "license": "XF-552",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.57864",
+    "latitude": "40.53484",
+    "dst": "1",
+    "license": "QN-604",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.68616",
+    "latitude": "28.306726",
+    "dst": "1",
+    "license": "CP-000",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.5497",
+    "latitude": "32.897457",
+    "dst": "1",
+    "license": "ZHJ-726",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.65009",
+    "latitude": "41.46995",
+    "dst": "1",
+    "license": "QR-741",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.2864",
+    "latitude": "39.29977",
+    "dst": "1",
+    "license": "HM-5768",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.44475",
+    "latitude": "42.985596",
+    "dst": "1",
+    "license": "NND-6757",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-103.61156",
+    "latitude": "39.836887",
+    "dst": "1",
+    "license": "LW-9246",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.43746",
+    "latitude": "33.492107",
+    "dst": "1",
+    "license": "VFM-138",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.23816",
+    "latitude": "35.191048",
+    "dst": "1",
+    "license": "LWU-4769",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.90838",
+    "latitude": "43.08276",
+    "dst": "1",
+    "license": "OQ-019",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.16406",
+    "latitude": "43.020115",
+    "dst": "1",
+    "license": "DJJ-817",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.37364",
+    "latitude": "42.613106",
+    "dst": "1",
+    "license": "ZRZ-603",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.44392",
+    "latitude": "41.3451",
+    "dst": "1",
+    "license": "QOH-3419",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.72275",
+    "latitude": "34.239155",
+    "dst": "1",
+    "license": "IM-546",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.89671",
+    "latitude": "40.828583",
+    "dst": "1",
+    "license": "LSB-5223",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.39276",
+    "latitude": "34.08746",
+    "dst": "1",
+    "license": "HLW-0521",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.49556",
+    "latitude": "29.92098",
+    "dst": "1",
+    "license": "LUN-9905",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.26434",
+    "latitude": "34.052563",
+    "dst": "1",
+    "license": "YC-8530",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.07694",
+    "latitude": "33.586754",
+    "dst": "1",
+    "license": "FRG-6041",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.96482",
+    "latitude": "40.92169",
+    "dst": "1",
+    "license": "ORF-3276",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.16845",
+    "latitude": "30.728489",
+    "dst": "1",
+    "license": "JUL-562",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.46942",
+    "latitude": "44.158978",
+    "dst": "1",
+    "license": "KIB-3722",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.17048",
+    "latitude": "32.547215",
+    "dst": "1",
+    "license": "BS-622",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.8588",
+    "latitude": "33.22298",
+    "dst": "0",
+    "license": "WK-089",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.39395",
+    "latitude": "41.426197",
+    "dst": "1",
+    "license": "FFN-002",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-123.11304",
+    "latitude": "45.2455",
+    "dst": "1",
+    "license": "MHT-3049",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.82892",
+    "latitude": "46.776386",
+    "dst": "1",
+    "license": "ZVB-785",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.08247",
+    "latitude": "35.109276",
+    "dst": "1",
+    "license": "JVP-642",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.91651",
+    "latitude": "37.779198",
+    "dst": "1",
+    "license": "QE-918",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.63536",
+    "latitude": "36.947422",
+    "dst": "1",
+    "license": "ZE-6627",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.72134",
+    "latitude": "41.483845",
+    "dst": "1",
+    "license": "PS-949",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.74251",
+    "latitude": "39.814354",
+    "dst": "1",
+    "license": "AAF-5780",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.68482",
+    "latitude": "42.418835",
+    "dst": "1",
+    "license": "IBO-9047",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-98.36399",
+    "latitude": "32.572617",
+    "dst": "1",
+    "license": "PZE-2870",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.2899",
+    "latitude": "32.411236",
+    "dst": "1",
+    "license": "RCD-740",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.77231",
+    "latitude": "43.86742",
+    "dst": "1",
+    "license": "EMT-172",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.98766",
+    "latitude": "47.4514",
+    "dst": "1",
+    "license": "JAO-565",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.74121",
+    "latitude": "37.44868",
+    "dst": "1",
+    "license": "LRD-382",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-71.15125",
+    "latitude": "41.85156",
+    "dst": "1",
+    "license": "CA-2410",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.939476",
+    "latitude": "40.420017",
+    "dst": "1",
+    "license": "CVD-4793",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.92561",
+    "latitude": "42.183044",
+    "dst": "1",
+    "license": "GX-188",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.944336",
+    "latitude": "32.452927",
+    "dst": "1",
+    "license": "XU-579",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.38103",
+    "latitude": "30.005135",
+    "dst": "1",
+    "license": "JLK-347",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-120.794975",
+    "latitude": "46.63754",
+    "dst": "1",
+    "license": "NO-2445",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-85.49536",
+    "latitude": "43.335472",
+    "dst": "1",
+    "license": "NJM-069",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.55434",
+    "latitude": "39.487717",
+    "dst": "1",
+    "license": "CJ-241",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.83216",
+    "latitude": "33.459923",
+    "dst": "1",
+    "license": "ZWS-560",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.10381",
+    "latitude": "41.598907",
+    "dst": "1",
+    "license": "BT-7458",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.62313",
+    "latitude": "42.009506",
+    "dst": "1",
+    "license": "YNR-998",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.47925",
+    "latitude": "32.9764",
+    "dst": "1",
+    "license": "XME-867",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-109.49392",
+    "latitude": "38.572777",
+    "dst": "1",
+    "license": "WP-2944",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.71067",
+    "latitude": "40.278088",
+    "dst": "1",
+    "license": "NM-4434",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.373505",
+    "latitude": "40.087833",
+    "dst": "1",
+    "license": "ZV-9557",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.024",
+    "latitude": "41.0448",
+    "dst": "1",
+    "license": "FV-167",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.10185",
+    "latitude": "38.99976",
+    "dst": "1",
+    "license": "HX-6799",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-117.43174",
+    "latitude": "47.65357",
+    "dst": "1",
+    "license": "YM-758",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.21897",
+    "latitude": "40.75555",
+    "dst": "1",
+    "license": "XZX-7470",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.94459",
+    "latitude": "42.603172",
+    "dst": "1",
+    "license": "YBK-5681",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-101.80781",
+    "latitude": "38.022873",
+    "dst": "1",
+    "license": "HA-934",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.4966",
+    "latitude": "45.81667",
+    "dst": "1",
+    "license": "GQX-2217",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.89038",
+    "latitude": "28.58319",
+    "dst": "1",
+    "license": "RRP-7032",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.87912",
+    "latitude": "42.635445",
+    "dst": "1",
+    "license": "DJ-7327",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-85.509",
+    "latitude": "33.338852",
+    "dst": "1",
+    "license": "DS-3766",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.77182",
+    "latitude": "37.094315",
+    "dst": "1",
+    "license": "VLF-767",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.00942",
+    "latitude": "40.6157",
+    "dst": "1",
+    "license": "PR-8077",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.84392",
+    "latitude": "40.877705",
+    "dst": "1",
+    "license": "GM-398",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.56496",
+    "latitude": "35.579487",
+    "dst": "1",
+    "license": "NW-197",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.04171",
+    "latitude": "44.245064",
+    "dst": "1",
+    "license": "TCM-865",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.185394",
+    "latitude": "42.73177",
+    "dst": "1",
+    "license": "YY-771",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.575745",
+    "latitude": "39.440956",
+    "dst": "1",
+    "license": "ZP-664",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.12198",
+    "latitude": "18.413511",
+    "dst": "0",
+    "license": "XB-6450",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.85433",
+    "latitude": "40.603947",
+    "dst": "1",
+    "license": "OC-5646",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.39152",
+    "latitude": "45.780792",
+    "dst": "1",
+    "license": "RMN-2755",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.43356",
+    "latitude": "34.488403",
+    "dst": "1",
+    "license": "IX-6660",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.46331",
+    "latitude": "41.866222",
+    "dst": "1",
+    "license": "OH-072",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.63778",
+    "latitude": "36.92516",
+    "dst": "1",
+    "license": "OXF-472",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.22858",
+    "latitude": "40.030926",
+    "dst": "1",
+    "license": "USK-2564",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.58093",
+    "latitude": "38.971474",
+    "dst": "1",
+    "license": "JJ-6467",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.612595",
+    "latitude": "32.695545",
+    "dst": "1",
+    "license": "QGJ-497",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.71029",
+    "latitude": "31.297882",
+    "dst": "1",
+    "license": "WU-9075",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-87.03629",
+    "latitude": "40.758186",
+    "dst": "0",
+    "license": "JEE-7689",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.43083",
+    "latitude": "34.00201",
+    "dst": "1",
+    "license": "EVM-124",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-78.4224",
+    "latitude": "40.989117",
+    "dst": "1",
+    "license": "GU-033",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.29859",
+    "latitude": "34.88602",
+    "dst": "1",
+    "license": "RQ-135",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.89052",
+    "latitude": "40.36665",
+    "dst": "1",
+    "license": "DL-0445",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.70533",
+    "latitude": "37.189396",
+    "dst": "1",
+    "license": "CNG-3595",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.718834",
+    "latitude": "41.791775",
+    "dst": "1",
+    "license": "YMG-7512",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.34203",
+    "latitude": "43.21352",
+    "dst": "1",
+    "license": "KVL-325",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.53015",
+    "latitude": "35.325993",
+    "dst": "1",
+    "license": "JX-974",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.718834",
+    "latitude": "41.791775",
+    "dst": "1",
+    "license": "PNG-539",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-84.15118",
+    "latitude": "33.9794",
+    "dst": "1",
+    "license": "XZ-7570",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.13316",
+    "latitude": "29.47033",
+    "dst": "1",
+    "license": "CHM-596",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.44443",
+    "latitude": "38.37741",
+    "dst": "1",
+    "license": "HZR-2842",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.132835",
+    "latitude": "39.77949",
+    "dst": "0",
+    "license": "TMU-645",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.79265",
+    "latitude": "42.157536",
+    "dst": "1",
+    "license": "XJ-0518",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-105.373505",
+    "latitude": "40.087833",
+    "dst": "1",
+    "license": "FCB-6173",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.7846",
+    "latitude": "41.708206",
+    "dst": "1",
+    "license": "YOW-1537",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.89776",
+    "latitude": "31.74658",
+    "dst": "1",
+    "license": "UX-4259",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.56665",
+    "latitude": "40.123394",
+    "dst": "1",
+    "license": "TDU-511",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.0072",
+    "latitude": "39.660625",
+    "dst": "1",
+    "license": "LIM-455",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-117.24498",
+    "latitude": "47.329704",
+    "dst": "1",
+    "license": "LD-797",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-86.206924",
+    "latitude": "41.04099",
+    "dst": "0",
+    "license": "OJF-564",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.08603",
+    "latitude": "35.871",
+    "dst": "1",
+    "license": "NWH-893",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.80427",
+    "latitude": "47.475796",
+    "dst": "1",
+    "license": "KTU-114",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.81022",
+    "latitude": "36.7586",
+    "dst": "1",
+    "license": "LR-653",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.27364",
+    "latitude": "43.576984",
+    "dst": "1",
+    "license": "YRV-5686",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.27402",
+    "latitude": "43.955105",
+    "dst": "1",
+    "license": "HAP-985",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-82.40801",
+    "latitude": "39.53097",
+    "dst": "1",
+    "license": "DYX-8203",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-103.23598",
+    "latitude": "32.439762",
+    "dst": "1",
+    "license": "XV-624",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.98935",
+    "latitude": "40.73251",
+    "dst": "1",
+    "license": "ZYX-463",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-75.8944",
+    "latitude": "39.783676",
+    "dst": "1",
+    "license": "PY-087",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-73.39857",
+    "latitude": "41.301006",
+    "dst": "1",
+    "license": "MDK-0066",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.99022",
+    "latitude": "34.94924",
+    "dst": "1",
+    "license": "CVC-200",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.89619",
+    "latitude": "38.27533",
+    "dst": "1",
+    "license": "LJD-2768",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.14049",
+    "latitude": "41.299335",
+    "dst": "1",
+    "license": "XNI-0650",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.777626",
+    "latitude": "32.76727",
+    "dst": "1",
+    "license": "UQO-2651",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.93137",
+    "latitude": "39.35409",
+    "dst": "1",
+    "license": "RRS-116",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.49316",
+    "latitude": "37.524246",
+    "dst": "1",
+    "license": "GR-995",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.83016",
+    "latitude": "39.283928",
+    "dst": "1",
+    "license": "CUA-395",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-121.29769",
+    "latitude": "44.091255",
+    "dst": "1",
+    "license": "MCQ-3622",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.0343",
+    "latitude": "39.07605",
+    "dst": "1",
+    "license": "DE-646",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.2147",
+    "latitude": "28.939249",
+    "dst": "1",
+    "license": "YHT-325",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-112.04004",
+    "latitude": "40.694744",
+    "dst": "1",
+    "license": "GXV-4498",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.9576",
+    "latitude": "35.51833",
+    "dst": "1",
+    "license": "YUN-9713",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-111.98603",
+    "latitude": "33.498077",
+    "dst": "0",
+    "license": "XP-4646",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.29866",
+    "latitude": "33.786594",
+    "dst": "1",
+    "license": "EO-287",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.34925",
+    "latitude": "44.353825",
+    "dst": "1",
+    "license": "TKX-3923",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.37522",
+    "latitude": "35.259613",
+    "dst": "1",
+    "license": "PQ-414",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-93.81676",
+    "latitude": "43.589603",
+    "dst": "1",
+    "license": "ZR-0548",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-72.10443",
+    "latitude": "42.412094",
+    "dst": "1",
+    "license": "PO-724",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.27279",
+    "latitude": "38.747963",
+    "dst": "1",
+    "license": "RUS-4002",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-81.70438",
+    "latitude": "38.16166",
+    "dst": "1",
+    "license": "ADL-108",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.16391",
+    "latitude": "38.6516",
+    "dst": "1",
+    "license": "QAJ-0591",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.94864",
+    "latitude": "18.073078",
+    "dst": "0",
+    "license": "GE-9525",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.04823",
+    "latitude": "44.93237",
+    "dst": "1",
+    "license": "SX-7411",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.25098",
+    "latitude": "18.29457",
+    "dst": "0",
+    "license": "IM-5128",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.38984",
+    "latitude": "35.61384",
+    "dst": "1",
+    "license": "VF-6901",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-92.88762",
+    "latitude": "35.058502",
+    "dst": "1",
+    "license": "UBX-4408",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.65185",
+    "latitude": "29.488245",
+    "dst": "1",
+    "license": "LTJ-729",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-4",
+    "longitude": "-66.55218",
+    "latitude": "18.049578",
+    "dst": "0",
+    "license": "IGD-5768",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.07664",
+    "latitude": "35.930405",
+    "dst": "1",
+    "license": "IU-0696",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-86.78172",
+    "latitude": "36.166805",
+    "dst": "1",
+    "license": "ZCF-0789",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-101.7201",
+    "latitude": "40.133488",
+    "dst": "1",
+    "license": "WG-6032",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-100.76402",
+    "latitude": "48.900963",
+    "dst": "1",
+    "license": "YJC-4041",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.777626",
+    "latitude": "32.76727",
+    "dst": "1",
+    "license": "LRS-419",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-115.23463",
+    "latitude": "47.71021",
+    "dst": "1",
+    "license": "ZG-443",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.0613",
+    "latitude": "40.98951",
+    "dst": "1",
+    "license": "DA-464",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-85.39971",
+    "latitude": "36.765984",
+    "dst": "1",
+    "license": "DV-106",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.29866",
+    "latitude": "33.786594",
+    "dst": "1",
+    "license": "FC-039",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-79.42092",
+    "latitude": "40.60897",
+    "dst": "1",
+    "license": "EE-2611",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-123.19334",
+    "latitude": "45.28775",
+    "dst": "1",
+    "license": "ZRR-322",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.86881",
+    "latitude": "32.696777",
+    "dst": "1",
+    "license": "WBZ-7469",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-123.22518",
+    "latitude": "45.662197",
+    "dst": "1",
+    "license": "LC-221",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.04528",
+    "latitude": "45.667564",
+    "dst": "1",
+    "license": "XI-0630",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.23905",
+    "latitude": "42.03854",
+    "dst": "1",
+    "license": "PP-161",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.98653",
+    "latitude": "34.200043",
+    "dst": "1",
+    "license": "YH-413",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-94.25152",
+    "latitude": "32.94136",
+    "dst": "1",
+    "license": "HA-016",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.81515",
+    "latitude": "36.1673",
+    "dst": "1",
+    "license": "HLA-281",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-89.881256",
+    "latitude": "30.42551",
+    "dst": "1",
+    "license": "DF-3162",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-90.75676",
+    "latitude": "36.362896",
+    "dst": "1",
+    "license": "XG-953",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-95.58631",
+    "latitude": "40.097218",
+    "dst": "1",
+    "license": "YO-487",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-7",
+    "longitude": "-106.67336",
+    "latitude": "35.196445",
+    "dst": "1",
+    "license": "YVN-243",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-96.73809",
+    "latitude": "38.79144",
+    "dst": "1",
+    "license": "YQL-7679",
+    "currency": "usdmxn"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-97.25167",
+    "latitude": "37.557434",
+    "dst": "1",
+    "license": "MUS-0421",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-87.53577",
+    "latitude": "34.66032",
+    "dst": "1",
+    "license": "PR-3468",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-118.1949",
+    "latitude": "33.944263",
+    "dst": "1",
+    "license": "DHG-556",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-119.84856",
+    "latitude": "34.262833",
+    "dst": "1",
+    "license": "VBG-5258",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-83.34113",
+    "latitude": "36.40703",
+    "dst": "1",
+    "license": "VAN-2673",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-74.87045",
+    "latitude": "39.490772",
+    "dst": "1",
+    "license": "FGG-8960",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.35637",
+    "latitude": "37.86055",
+    "dst": "1",
+    "license": "GB-295",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-8",
+    "longitude": "-117.18987",
+    "latitude": "33.66035",
+    "dst": "1",
+    "license": "CX-0715",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-88.62298",
+    "latitude": "37.836536",
+    "dst": "1",
+    "license": "OO-2570",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-80.50393",
+    "latitude": "41.0981",
+    "dst": "1",
+    "license": "UG-1823",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-101.83368",
+    "latitude": "46.75944",
+    "dst": "1",
+    "license": "NO-117",
+    "currency": "usdcad"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-76.83075",
+    "latitude": "38.74887",
+    "dst": "1",
+    "license": "CEX-868",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-77.11295",
+    "latitude": "38.88081",
+    "dst": "1",
+    "license": "TA-8412",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-5",
+    "longitude": "-70.91963",
+    "latitude": "42.338947",
+    "dst": "1",
+    "license": "FH-6556",
+    "currency": "usdusd"
+  },
+  {
+    "timezone": "-6",
+    "longitude": "-91.49604",
+    "latitude": "42.338696",
+    "dst": "1",
+    "license": "WYI-891",
+    "currency": "usdusd"
+  }
+]
