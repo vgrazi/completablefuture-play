@@ -18,11 +18,12 @@ import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
-public class WorkSheet {
+public class CompletableFutureTests {
     private final Logger log = LoggerFactory.getLogger("");
 
     @Test
     public void parseCoordinatesAndCities() {
+        log.debug("Starting");
         // Summary - we are tasked with preparing incoming customer data for indexing in Elasticsearch
         // 1. First step is read the accounts.json file - readAccountsFile()
         // The main file accounts.json consists of:
