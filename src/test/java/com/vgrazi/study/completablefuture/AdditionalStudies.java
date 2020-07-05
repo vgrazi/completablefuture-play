@@ -20,7 +20,7 @@ import java.util.stream.IntStream;
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
-public class Solutions {
+public class AdditionalStudies {
     private final Logger logger = LoggerFactory.getLogger("");
     private CompletableFuture<Void> latch = new CompletableFuture();
 
