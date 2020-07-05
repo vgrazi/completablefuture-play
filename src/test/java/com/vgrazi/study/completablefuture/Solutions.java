@@ -23,6 +23,107 @@ import static org.junit.Assert.assertTrue;
 public class Solutions {
     private final Logger log = LoggerFactory.getLogger("");
 
+    // 4A. test join
+    @Test
+    public void join() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("Completed value");
+        String join = cf.join();
+        log.debug(join);
+    }
+
+    // 4B. test join with exception
+    @Test
+    public void joinWithException() {
+        CompletableFuture<String> cf = CompletableFuture.failedFuture(new IllegalArgumentException("Some exception"));
+        try {
+            String join = cf.join();
+            log.debug(join);
+        } catch (CompletionException e) {
+            log.debug(String.valueOf(e));
+            log.debug(String.valueOf(e.getCause()));
+        }
+    }
+
+    // 5A. test get
+    @Test
+    public void get() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("Completed value");
+        try {
+            String join = cf.get();
+            log.debug(join);
+        } catch (InterruptedException | ExecutionException e) {
+            log.debug(String.valueOf(e));
+        }
+    }
+
+    // 5B. test getWithException
+    @Test
+    public void getWithException() {
+        CompletableFuture<String> cf = CompletableFuture.failedFuture(new IllegalArgumentException("Some exception"));
+        String join = null;
+        try {
+            join = cf.get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            log.debug(String.valueOf(e));
+            log.debug(String.valueOf(e.getCause()));
+        }
+        log.debug(join);
+    }
+
+    // 6A. test getNow
+    @Test
+    public void getNow() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("Completed value");
+//        CompletableFuture<String> cf = new CompletableFuture<>();
+        String join = cf.getNow("Default value");
+        log.debug(join);
+    }
+
+    // 6B. test getNow with Exception
+    @Test
+    public void getNowWithException() {
+        CompletableFuture<String> cf = CompletableFuture.failedFuture(new IllegalArgumentException("Some exception"));
+        String join = null;
+        try {
+            join = cf.getNow("Default value");
+        } catch (CompletionException e) {
+            log.debug(String.valueOf(e));
+        }
+        log.debug(join);
+    }
+
+    // 7A. obtrude
+    @Test
+    public void obtrude() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("completed");
+        log.debug("1." + cf.join());
+        cf.complete("some completed value");
+        log.debug("2." + cf.join());
+        cf.obtrudeValue("some obtruded value");
+        log.debug("3." + cf.join());
+    }
+
+    // 7B. obtrudeException
+    @Test
+    public void obtrudeException() {
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("completed");
+        log.debug("1." + cf.join());
+        cf.obtrudeException(new RuntimeException("You got the exception"));
+        cf.complete("some completed value");
+//        logger.debug("2." + cf.join());
+        cf.obtrudeValue("some obtruded value");
+        log.debug("3." + cf.join());
+        String join = null;
+        try {
+            join = cf.join();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        log.debug(join);
+    }
+
     // 3. runAsync
     @Test
     public void runAsync() {
@@ -182,106 +283,6 @@ public class Solutions {
     }
 
 
-    // 4A. test join
-    @Test
-    public void join() {
-        CompletableFuture<String> cf = CompletableFuture.completedFuture("Completed value");
-        String join = cf.join();
-        log.debug(join);
-    }
-
-    // 4B. test join with exception
-    @Test
-    public void joinWithException() {
-        CompletableFuture<String> cf = CompletableFuture.failedFuture(new IllegalArgumentException("Some exception"));
-        try {
-            String join = cf.join();
-            log.debug(join);
-        } catch (CompletionException e) {
-            log.debug(String.valueOf(e));
-            log.debug(String.valueOf(e.getCause()));
-        }
-    }
-
-    // 5A. test get
-    @Test
-    public void get() {
-        CompletableFuture<String> cf = CompletableFuture.completedFuture("Completed value");
-        try {
-            String join = cf.get();
-            log.debug(join);
-        } catch (InterruptedException | ExecutionException e) {
-            log.debug(String.valueOf(e));
-        }
-    }
-
-    // 5B. test getWithException
-    @Test
-    public void getWithException() {
-        CompletableFuture<String> cf = CompletableFuture.failedFuture(new IllegalArgumentException("Some exception"));
-        String join = null;
-        try {
-            join = cf.get();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            log.debug(String.valueOf(e));
-            log.debug(String.valueOf(e.getCause()));
-        }
-        log.debug(join);
-    }
-
-    // 6A. test getNow
-    @Test
-    public void getNow() {
-        CompletableFuture<String> cf = CompletableFuture.completedFuture("Completed value");
-//        CompletableFuture<String> cf = new CompletableFuture<>();
-        String join = cf.getNow("Default value");
-        log.debug(join);
-    }
-
-    // 6B. test getNow with Exception
-    @Test
-    public void getNowWithException() {
-        CompletableFuture<String> cf = CompletableFuture.failedFuture(new IllegalArgumentException("Some exception"));
-        String join = null;
-        try {
-            join = cf.getNow("Default value");
-        } catch (CompletionException e) {
-            log.debug(String.valueOf(e));
-        }
-        log.debug(join);
-    }
-
-    // 7A. obtrude
-    @Test
-    public void obtrude() {
-        CompletableFuture<String> cf = CompletableFuture.completedFuture("completed");
-        log.debug("1." + cf.join());
-        cf.complete("some completed value");
-        log.debug("2." + cf.join());
-        cf.obtrudeValue("some obtruded value");
-        log.debug("3." + cf.join());
-    }
-
-    // 7B. obtrudeException
-    @Test
-    public void obtrudeException() {
-        CompletableFuture<String> cf = CompletableFuture.completedFuture("completed");
-        log.debug("1." + cf.join());
-        cf.obtrudeException(new RuntimeException("You got the exception"));
-        cf.complete("some completed value");
-//        logger.debug("2." + cf.join());
-        cf.obtrudeValue("some obtruded value");
-        log.debug("3." + cf.join());
-        String join = null;
-        try {
-            join = cf.join();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        log.debug(join);
-    }
 
     // 8. accept either
     @Test
