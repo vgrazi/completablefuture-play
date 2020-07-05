@@ -1,5 +1,6 @@
 package com.vgrazi.study.completablefuture.parser.account;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.vgrazi.study.completablefuture.parser.geo.GeoPoint;
 import lombok.Getter;
 import lombok.Setter;
@@ -23,6 +24,7 @@ public class Account {
     private String state;
     private String zip;
     private double exchangeRate;
+    @JsonIgnore
     public GeoPoint getGeoPoint() {
         return new GeoPoint(latitude, longitude);
     }

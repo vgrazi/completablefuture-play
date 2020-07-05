@@ -3,6 +3,7 @@ package com.vgrazi.study.completablefuture;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vgrazi.study.completablefuture.license.License;
 import com.vgrazi.study.completablefuture.parser.account.Account;
+import com.vgrazi.study.completablefuture.parser.currency.Currencies;
 import com.vgrazi.study.completablefuture.parser.geo.GeoDataset;
 import com.vgrazi.study.completablefuture.parser.geo.GeoPoint;
 import org.junit.Test;
@@ -18,43 +19,140 @@ import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
 public class WorkSheet {
-    private final Logger logger = LoggerFactory.getLogger("");
+    private final Logger log = LoggerFactory.getLogger("");
 
     @Test
     public void parseCoordinatesAndCities() {
         // Summary - we are tasked with preparing incoming customer data for indexing in Elasticsearch
-        // 1. The main file accounts.csv consists of:
+        // 1. First step is read the accounts.json file - readAccountsFile()
+        // The main file accounts.json consists of:
         // Date, License plate #, geo coords of toll booth, pmnt currency
-        // there are some fields that need to be enriched:
-        // 2. Geo coords - convertDataSetToGeoCoordsMap(geoDatasets)
-        // 3. Currency rate - parseCurrencyConversions, then map usdcad, usdmxn, and usdusd to their exchange rate
-        // 4. License plates - convertLicensesToLicenseMap
-        // Goal: Launch supplyAsync processes:
-        // 1. Read main file
-        // 2. Read Geo file
-        // 3. Read Currency conversions file
-        // 4. Read license plates file
-        // strategy
-        // 1. Create async jobs to read the 4 files into external maps
-        // 2. When all are done, enrich the accounts records
-        // 3. Write back the revised accounts file - writeAccountFile
+        // there are some Account fields that need to be enriched from the following:
+        // 2. Next, read the Geo coords file us-zip-code-latitude-and-longitude.json
+        // (Don't try to open that file in the IDE, it's very big). There is a small sample if you want to see that
+        // - readGeoFile(), then grab the fields:
+        // GeoDataset.fields.city, GeoDataset.fields.state, GeoDataset.fields.zip, and store in the corresponding
+//        Account fields
+        // 3. Currency rate read currency-conversions.json - readCurrencyFile(), then map usdcad, usdmxn, and usdusd to their exchange rate in Account instance
+        // 4. License plates - licenses.json readLicenseFile(), then grab name and store in Account instance
 
-        List<Account> accountsList = new ArrayList<>(); // target/classes/accounts.json
-        Map<GeoPoint, GeoDataset> geoDatasetMap = new HashMap<>(); // target/classes/us-zip-code-latitude-and-longitude.json
-        Map<String, Double> currencyMap = new HashMap<>(); // target/classes/currency-conversions.json
-        Map<String, License> licenseMap = new HashMap<>(); // target/classes/licenses.json
+        // after launching the read for each of these, combine them in sequence (but concurrently) with the account file
 
-        CompletableFuture<List<Account>> accountCf = CompletableFuture.supplyAsync(() -> {
+        // finally, when all the maps are done and applied to the accounts list, write the accounts file using writeAccountsFile(accountsList)
+
+        // be sure to join at the end of the method, so that the test method does not exit before the process completes.
+
+        // all of the steps above have corresponding calls below
+
+    }
+
+    private void combineCurrencyMap(CompletableFuture<List<Account>> accountCf, CompletableFuture<Map<String, Double>> currencyCF) {
+        accountCf.thenCombineAsync(currencyCF, (accountList, currencyMap) -> {
+            log.debug("Combining currency map");
+            accountList.forEach(account -> {
+                String currency = account.getCurrency();
+                Double exchangeRate = currencyMap.get(currency);
+                if (exchangeRate != null) {
+                    account.setExchangeRate(exchangeRate);
+                }
+            });
+
+            return accountList;
+        });
+    }
+
+    private void combineGeoFile(CompletableFuture<List<Account>> accountCf, CompletableFuture<Map<GeoPoint, GeoDataset>> geoCF) {
+        accountCf.thenCombineAsync(geoCF, (accountList, geoPointGeoDatasetMap) -> {
+            log.debug("Combining geo file");
+            accountList.forEach(account -> {
+                GeoPoint geoPoint = account.getGeoPoint();
+                GeoDataset geoDataset = geoPointGeoDatasetMap.get(geoPoint);
+                if (geoDataset != null) {
+                    String city = geoDataset.getFields().getCity();
+                    String state = geoDataset.getFields().getState();
+                    String zip = geoDataset.getFields().getZip();
+                    account.setCity(city);
+                    account.setState(state);
+                    account.setZip(zip);
+                } else {
+                    log.debug("No geoDataSet:" + geoDataset);
+                }
+            });
+
+            return accountList;
+        });
+    }
+
+    private CompletableFuture<List<Account>> readAccountsFile() {
+        return CompletableFuture.supplyAsync(() -> {
             File file = new File("target/classes/accounts.json");
             Account[] accounts = readFile(file, Account[].class);
             return accounts;
         }).thenApply(accounts -> {
+            log.debug("Mapping accounts");
             List<Account> list = Arrays.asList(accounts);
-            accountsList.addAll(list);
             return list;
-        }).exceptionally(e -> accountsList);
+        });
+    }
 
-        // remember to join on something, or the method will exit before the threads complete
+    private CompletableFuture<Map<GeoPoint, GeoDataset>> readGeoFile() {
+        return CompletableFuture.supplyAsync(() -> {
+            File file = new File("target/classes/us-zip-code-latitude-and-longitude.json");
+            GeoDataset[] geoDatasets = readFile(file, GeoDataset[].class);
+            return geoDatasets;
+        }).thenApply(geoDatasets -> {
+            log.debug("Mapping geo file");
+            Map<GeoPoint, GeoDataset> geoPointGeoDatasetMap = convertDataSetToGeoCoordsMap(geoDatasets);
+            return geoPointGeoDatasetMap;
+        }).exceptionally(e -> {
+            log.debug("Exception " + e);
+            return new HashMap<>();
+        });
+    }
+
+    private CompletableFuture<Map<String, Double>> readCurrencyFile() {
+        return CompletableFuture.supplyAsync(() -> {
+            File file = new File("target/classes/currency-conversions.json");
+            Currencies currencies = readFile(file, Currencies.class);
+            return currencies;
+        }).thenApply(currencies -> {
+            log.debug("Mapping currency file");
+            Map<String, Double> currencyMap = new HashMap<>();
+            currencyMap.put("usdcad", currencies.getUsdcad());
+            currencyMap.put("usdmxn", currencies.getUsdmxn());
+            currencyMap.put("usdusd", currencies.getUsdusd());
+            return currencyMap;
+        });
+    }
+
+    private CompletableFuture<Map<String, License>> readLicenseFile() {
+        return CompletableFuture.supplyAsync(() -> {
+            File file = new File("target/classes/licenses.json");
+            License[] licenses = readFile(file, License[].class);
+            return licenses;
+        }).thenApply(licenses -> {
+            log.debug("Mapping license file");
+            Map<String, License> licensesMap = convertLicensesToLicenseMap(licenses);
+            return licensesMap;
+        }).exceptionally(ex -> new HashMap<>());
+    }
+
+    private void combineLicenseMap(CompletableFuture<List<Account>> accountCf, CompletableFuture<Map<String, License>> licensesCF) {
+        accountCf.thenCombineAsync(licensesCF, (accountList, licenseMap)->{
+            log.debug("Combining license map");
+            accountList.forEach(account -> {
+                String licenseId = account.getLicense();
+                License license = licenseMap.get(licenseId);
+                if (license != null) {
+                    String name = license.getName();
+                    account.setName(name);
+                } else {
+                    log.debug("No license id:" + licenseId);
+                }
+            });
+
+            return accountList;
+        });
     }
 
     /**
@@ -65,6 +163,7 @@ public class WorkSheet {
      */
     private <T> T readFile(File jsonFile, Class<T> clazz) throws UncheckedIOException {
         try {
+            log.debug("Reading file " + jsonFile);
             ObjectMapper mapper = new ObjectMapper();
             T records = mapper.readValue(jsonFile, clazz);
             return records;
@@ -87,34 +186,9 @@ public class WorkSheet {
         return licenseMap;
     }
 
-    /**
-     * Input file contains 43,191 entries of usa coordinates
-     *
-     * @return
-     */
-    private GeoDataset[] readGeoDatasets() {
-        GeoDataset[] geoDatasets = new GeoDataset[0];
-        try {
-            ObjectMapper mapper = new ObjectMapper();
-            File file = new File("target/classes/us-zip-code-latitude-and-longitude.json");
-            geoDatasets = mapper.readValue(file, GeoDataset[].class);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return geoDatasets;
-    }
-
     private Map<GeoPoint, GeoDataset> convertDataSetToGeoCoordsMap(GeoDataset[] geoDatasets) {
         return Arrays.stream(geoDatasets).collect(Collectors.toMap(geoDataset ->
                 new GeoPoint(geoDataset.getFields().getLatitude(), geoDataset.getFields().getLongitude())
             , geoDataset -> geoDataset, (key1, key2) -> key1));
     }
-
-    /**
-     * Parses the Returns a Map&lt;Zip-code, Dataset>
-     */
-    private Map<String, GeoDataset> convertDataSetToZipcodeMap(GeoDataset[] geoDatasets) {
-        return Arrays.stream(geoDatasets).collect(Collectors.toMap(geoDataset -> geoDataset.getFields().getZip(), geoDataset -> geoDataset));
-    }
-
 }
