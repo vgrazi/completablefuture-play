@@ -1,7 +1,7 @@
 package com.vgrazi.study.completablefuture;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vgrazi.study.completablefuture.license.License;
+import com.vgrazi.study.completablefuture.license.LicensePlate;
 import com.vgrazi.study.completablefuture.parser.account.Account;
 import com.vgrazi.study.completablefuture.parser.currency.Currencies;
 import com.vgrazi.study.completablefuture.parser.geo.GeoDataset;
@@ -126,24 +126,24 @@ public class CompletableFutureTests {
         });
     }
 
-    private CompletableFuture<Map<String, License>> readLicenseFile() {
+    private CompletableFuture<Map<String, LicensePlate>> readLicenseFile() {
         return CompletableFuture.supplyAsync(() -> {
             File file = new File("target/classes/licenses.json");
-            License[] licenses = readFile(file, License[].class);
+            LicensePlate[] licenses = readFile(file, LicensePlate[].class);
             return licenses;
         }).thenApply(licenses -> {
             log.debug("Mapping license file");
-            Map<String, License> licensesMap = convertLicensesToLicenseMap(licenses);
+            Map<String, LicensePlate> licensesMap = convertLicensesToLicenseMap(licenses);
             return licensesMap;
         }).exceptionally(ex -> new HashMap<>());
     }
 
-    private void combineLicenseMap(CompletableFuture<List<Account>> accountCf, CompletableFuture<Map<String, License>> licensesCF) {
+    private void combineLicenseMap(CompletableFuture<List<Account>> accountCf, CompletableFuture<Map<String, LicensePlate>> licensesCF) {
         accountCf.thenCombineAsync(licensesCF, (accountList, licenseMap)->{
             log.debug("Combining license map");
             accountList.forEach(account -> {
                 String licenseId = account.getLicense();
-                License license = licenseMap.get(licenseId);
+                LicensePlate license = licenseMap.get(licenseId);
                 if (license != null) {
                     String name = license.getName();
                     account.setName(name);
@@ -182,8 +182,8 @@ public class CompletableFutureTests {
         }
     }
 
-    private Map<String, License> convertLicensesToLicenseMap(License[] licenses) {
-        Map<String, License> licenseMap = Arrays.stream(licenses).collect(Collectors.toMap(License::getLicense, license -> license));
+    private Map<String, LicensePlate> convertLicensesToLicenseMap(LicensePlate[] licenses) {
+        Map<String, LicensePlate> licenseMap = Arrays.stream(licenses).collect(Collectors.toMap(LicensePlate::getLicense, license -> license));
         return licenseMap;
     }
 

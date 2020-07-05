@@ -7,7 +7,7 @@ import lombok.ToString;
 @ToString
 @Getter
 @Setter
-public class License {
+public class LicensePlate {
     private String license;
     private String state;
     private String name;
