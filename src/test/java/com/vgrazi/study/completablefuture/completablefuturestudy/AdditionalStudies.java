@@ -1,4 +1,4 @@
-package com.vgrazi.study.completablefuture;
+package com.vgrazi.study.completablefuture.completablefuturestudy;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vgrazi.study.completablefuture.parser.account.Account;
