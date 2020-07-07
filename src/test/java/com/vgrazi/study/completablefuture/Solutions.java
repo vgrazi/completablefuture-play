@@ -18,8 +18,6 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
-import static org.junit.Assert.assertTrue;
-
 public class Solutions {
     private final Logger log = LoggerFactory.getLogger("");
 
@@ -448,6 +446,23 @@ public class Solutions {
         })
     .thenAccept((x)-> log.debug(x));
 
+
+        String join = cf.join();
+        log.debug(join);
+    }
+
+    @Test
+    public void handle() throws ExecutionException, InterruptedException {
+        log.debug("Starting");
+        String name = null;
+        CompletableFuture<String> cf =  CompletableFuture.supplyAsync(() -> {
+            if (name == null) {
+                throw new RuntimeException("Problems!");
+            }
+            else {
+                return "Hello," + name;
+            }
+        }).handle((value, t) -> value != null ? value : "Hello, You!");
 
         String join = cf.join();
         log.debug(join);
