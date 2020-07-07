@@ -304,7 +304,7 @@ public class Solutions {
     public void thenAccept() {
         log.debug("Starting thenAccept");
         CompletableFuture<String> cf1 = new CompletableFuture<>();
-        CompletableFuture<Void> cf2 = cf1.thenAccept(log::debug);
+        CompletableFuture<Void> cf2 = cf1.thenAccept(s -> log.debug(s));
         cf1.complete("Done cf1");
         cf2.join();
         log.debug("Finishing");
@@ -434,6 +434,25 @@ public class Solutions {
         allOf.join();
         log.debug("Finishing");
     }
+
+    @Test
+    public void whenComplete() {
+        log.debug("Starting");
+        CompletableFuture<String> cf = CompletableFuture.completedFuture("Done");
+// can add whenComplete in between completion stages
+        cf.whenComplete((value, exception)->{
+            if(exception != null) {
+                log.debug("Exception:" + exception);
+            }
+            else log.debug("Value:" + value);
+        })
+    .thenAccept((x)-> log.debug(x));
+
+
+        String join = cf.join();
+        log.debug(join);
+    }
+
 
     @Test
     public void parseCoordinatesAndCities() {
