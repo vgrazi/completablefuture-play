@@ -47,28 +47,14 @@ public class CodingProject {
         // be sure to join at the end of the method, so that the test method does not exit before the process completes.
 
         // all of the steps above have corresponding calls below
+        CompletableFuture<List<Account>> accountCf = readAccountsFile();
+        CompletableFuture<Map<GeoPoint, GeoDataset>> geoCf = readGeoFile();
+        CompletableFuture<Map<String, Double>> currencyCf = readCurrencyFile();
+        CompletableFuture<Map<String, LicensePlate>> licenseCf = readLicenseFile();
 
-    }
-
-    private void combineCurrencyMap(CompletableFuture<List<Account>> accountCf, CompletableFuture<Map<String, Double>> currencyCF) {
-        accountCf.thenCombineAsync(currencyCF, (accountList, currencyMap) -> {
-            log.debug("Combining currency map");
-            accountList.forEach(account -> {
-                String currency = account.getCurrency();
-                Double exchangeRate = currencyMap.get(currency);
-                if (exchangeRate != null) {
-                    account.setExchangeRate(exchangeRate);
-                }
-            });
-
-            return accountList;
-        });
-    }
-
-    private void combineGeoFile(CompletableFuture<List<Account>> accountCf, CompletableFuture<Map<GeoPoint, GeoDataset>> geoCF) {
-        accountCf.thenCombineAsync(geoCF, (accountList, geoPointGeoDatasetMap) -> {
+        accountCf.thenCombineAsync(geoCf, (accountList1, geoPointGeoDatasetMap) -> {
             log.debug("Combining geo file");
-            accountList.forEach(account -> {
+            accountList1.forEach(account -> {
                 GeoPoint geoPoint = account.getGeoPoint();
                 GeoDataset geoDataset = geoPointGeoDatasetMap.get(geoPoint);
                 if (geoDataset != null) {
@@ -80,6 +66,31 @@ public class CodingProject {
                     account.setZip(zip);
                 } else {
                     log.debug("No geoDataSet:" + geoDataset);
+                }
+            });
+
+            return accountList1;
+        });
+        combineCurrencyMap(accountCf, currencyCf);
+        combineLicenseMap(accountCf, licenseCf);
+
+        CompletableFuture.allOf(geoCf, accountCf, currencyCf, licenseCf)
+            .thenRun(()->{
+                List<Account> accountList = accountCf.getNow(null);
+                writeAccountFile(accountList);
+            })
+            .join();
+
+    }
+
+    private void combineCurrencyMap(CompletableFuture<List<Account>> accountCf, CompletableFuture<Map<String, Double>> currencyCF) {
+        accountCf.thenCombineAsync(currencyCF, (accountList, currencyMap) -> {
+            log.debug("Combining currency map");
+            accountList.forEach(account -> {
+                String currency = account.getCurrency();
+                Double exchangeRate = currencyMap.get(currency);
+                if (exchangeRate != null) {
+                    account.setExchangeRate(exchangeRate);
                 }
             });
 
